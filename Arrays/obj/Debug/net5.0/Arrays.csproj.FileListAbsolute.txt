@@ -1,0 +1,15 @@
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\bin\Debug\net5.0\Arrays.exe
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\bin\Debug\net5.0\Arrays.deps.json
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\bin\Debug\net5.0\Arrays.runtimeconfig.json
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\bin\Debug\net5.0\Arrays.runtimeconfig.dev.json
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\bin\Debug\net5.0\Arrays.dll
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\bin\Debug\net5.0\ref\Arrays.dll
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\bin\Debug\net5.0\Arrays.pdb
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.AssemblyInfoInputs.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.AssemblyInfo.cs
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.csproj.CoreCompileInputs.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.dll
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\ref\Arrays.dll
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.pdb
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.genruntimeconfig.cache
