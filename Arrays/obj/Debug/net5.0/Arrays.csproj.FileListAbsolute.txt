@@ -13,3 +13,4 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.dll
 D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\ref\Arrays.dll
 D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.pdb
 D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.genruntimeconfig.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Arrays\obj\Debug\net5.0\Arrays.csproj.AssemblyReference.cache
