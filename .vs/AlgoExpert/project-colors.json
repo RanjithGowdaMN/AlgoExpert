@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "07a47066-761d-4f05-a3b3-21bc9afe5f70": {
+      "ProjectGuid": "07a47066-761d-4f05-a3b3-21bc9afe5f70",
+      "DisplayName": "Arrays",
+      "ColorIndex": 0
+    },
+    "0c5861a6-0397-4fd7-a2c6-3ed7b7ee76ed": {
+      "ProjectGuid": "0c5861a6-0397-4fd7-a2c6-3ed7b7ee76ed",
+      "DisplayName": "AlgoExpertTestCases",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
