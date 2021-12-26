@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1RuV9m8evHGxCYaF84OFlhV8t5IIViCvg7BSVWqJmHTAtq1omHiazgVhbXsYdGtEYwwQuN6Wql4yAQ+SZYsLJg==",
+  "success": true,
+  "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rzBoOSW8g/QwBUX1W36KnyGPctmQuIoxeos0Fy1PRxbEsovSgateY619hvc7MdY03pigZcIxf8UHNskOKH6WGA==",
+  "success": true,
+  "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\PopularAlgorithm\\PopularAlgorithm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "T/rX21XxwLwDxZD4ZLgmyNWnAhMzEqIwtj+KXsC4NvpCX9oL6DtY8v4KkttyAYNcRE8FDBYy6O+mEKTuZwP4Kw==",
+  "success": true,
+  "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\Heaps\\Heaps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
