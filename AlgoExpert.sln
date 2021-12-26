@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoExpertTestCases", "AlgoExpertTestCases\AlgoExpertTestCases.csproj", "{0C5861A6-0397-4FD7-A2C6-3ED7B7EE76ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{B88BFD32-B81D-4A6D-8E79-CCD54259AA41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0C5861A6-0397-4FD7-A2C6-3ED7B7EE76ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C5861A6-0397-4FD7-A2C6-3ED7B7EE76ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C5861A6-0397-4FD7-A2C6-3ED7B7EE76ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88BFD32-B81D-4A6D-8E79-CCD54259AA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88BFD32-B81D-4A6D-8E79-CCD54259AA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88BFD32-B81D-4A6D-8E79-CCD54259AA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88BFD32-B81D-4A6D-8E79-CCD54259AA41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

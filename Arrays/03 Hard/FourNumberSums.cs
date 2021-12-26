@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Arrays
 {
     public class FourNumberSums
     {
-        //public static void Main()
-        //{
-        //    FourNumberSum(new int[] { 7, 6, 4, -1, 1, 2 }, 16);
-        //}
-
         public static List<int[]> FourNumberSum(int[] array, int targetSum)
         {
             // Write your code here.
