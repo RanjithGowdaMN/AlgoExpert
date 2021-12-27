@@ -20,7 +20,72 @@
       "ProjectGuid": "b88bfd32-b81d-4a6d-8e79-ccd54259aa41",
       "DisplayName": "Strings",
       "ColorIndex": 2
+    },
+    "5a308eac-d927-4082-9d26-b1e1714fc9bc": {
+      "ProjectGuid": "5a308eac-d927-4082-9d26-b1e1714fc9bc",
+      "DisplayName": "Sorting",
+      "ColorIndex": 3
+    },
+    "fe5e733b-8672-449f-ad62-b424e0487c88": {
+      "ProjectGuid": "fe5e733b-8672-449f-ad62-b424e0487c88",
+      "DisplayName": "Searching",
+      "ColorIndex": 4
+    },
+    "725a7484-f7e4-4e55-ae1d-6e47e0ee583a": {
+      "ProjectGuid": "725a7484-f7e4-4e55-ae1d-6e47e0ee583a",
+      "DisplayName": "Recursion",
+      "ColorIndex": 5
+    },
+    "d349d6d2-124e-4948-b1cd-8e2053e2786c": {
+      "ProjectGuid": "d349d6d2-124e-4948-b1cd-8e2053e2786c",
+      "DisplayName": "BinarySearchTrees",
+      "ColorIndex": 6
+    },
+    "43fb745e-b50b-481c-ba01-de106ee5df2b": {
+      "ProjectGuid": "43fb745e-b50b-481c-ba01-de106ee5df2b",
+      "DisplayName": "BinaryTrees",
+      "ColorIndex": 7
+    },
+    "2250a263-9602-442a-b59a-761d9e508d16": {
+      "ProjectGuid": "2250a263-9602-442a-b59a-761d9e508d16",
+      "DisplayName": "DynamicProgramming",
+      "ColorIndex": 8
+    },
+    "7890e8ed-0f21-4c98-a553-288e5146c073": {
+      "ProjectGuid": "7890e8ed-0f21-4c98-a553-288e5146c073",
+      "DisplayName": "PopularAlgorithm",
+      "ColorIndex": 9
+    },
+    "ade3a0c3-979e-4390-bb77-5fde61ebb5df": {
+      "ProjectGuid": "ade3a0c3-979e-4390-bb77-5fde61ebb5df",
+      "DisplayName": "Graphs",
+      "ColorIndex": 10
+    },
+    "e7196e6d-c0da-448d-8221-7a88a56506e0": {
+      "ProjectGuid": "e7196e6d-c0da-448d-8221-7a88a56506e0",
+      "DisplayName": "GreadyAlgorithm",
+      "ColorIndex": 11
+    },
+    "beb97182-f4d8-4e75-8037-e7537a8eb50e": {
+      "ProjectGuid": "beb97182-f4d8-4e75-8037-e7537a8eb50e",
+      "DisplayName": "Heaps",
+      "ColorIndex": 12
+    },
+    "082d5404-ff73-474c-9614-6d5bce9dfafb": {
+      "ProjectGuid": "082d5404-ff73-474c-9614-6d5bce9dfafb",
+      "DisplayName": "LinkedList",
+      "ColorIndex": 13
+    },
+    "7e4b36a6-9623-447c-a5fe-b145e24918a5": {
+      "ProjectGuid": "7e4b36a6-9623-447c-a5fe-b145e24918a5",
+      "DisplayName": "Stacks",
+      "ColorIndex": 14
+    },
+    "8b2203de-acf4-41a0-a41a-76699944a4ea": {
+      "ProjectGuid": "8b2203de-acf4-41a0-a41a-76699944a4ea",
+      "DisplayName": "Tries",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 0
 }

@@ -8,7 +8,6 @@ namespace Strings
 {
     internal class CaesarCypherEncriptor
     {
-
         public static string caesarCypherEncriptor(string  str, int key)
         {
             char[] newString = new char[str.Length];

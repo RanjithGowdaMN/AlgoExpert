@@ -4,7 +4,6 @@ namespace Strings
 {
     internal class CheckPolindrome
 	{
-
         private static bool checkPolindrome(string str)
         {
 			int left = 0;
