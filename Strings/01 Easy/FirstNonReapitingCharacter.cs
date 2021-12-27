@@ -8,11 +8,6 @@ namespace Strings._01_Easy
 {
     public class FirstNonReapitingCharacter
     {
-        public static void Main()
-        {
-            Console.WriteLine(FirstNonReapitingCharacterT("AAAAAAAAAAAAABBCCCCDD"));
-        }
-
         private static int FirstNonReapitingCharacterT(string str)
         {
             Dictionary<char, int> CharFrequency = new Dictionary<char, int>();

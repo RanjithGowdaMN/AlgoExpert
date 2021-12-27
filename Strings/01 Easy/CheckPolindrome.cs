@@ -20,9 +20,8 @@ namespace Strings
 					left++;
 					right--;
 				}
-
 			}
-		return true;
+			return true;
 		}
     }
 }
