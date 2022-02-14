@@ -9,11 +9,11 @@ namespace Arrays._03_Hard
     internal class Test
     {
 
-        public static void Main()
-        {
-            Tewserfst(10);
+        //public static void Main()
+        //{
+        //    Tewserfst(10);
               
-        }
+        //}
 
         public static void Tewserfst(float t)
         {

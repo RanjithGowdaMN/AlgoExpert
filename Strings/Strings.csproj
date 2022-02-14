@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="02 Medium\" />
     <Folder Include="03 Hard\" />
     <Folder Include="04 Very Hard\" />
   </ItemGroup>
