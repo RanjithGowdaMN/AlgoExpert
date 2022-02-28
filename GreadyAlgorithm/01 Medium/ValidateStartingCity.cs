@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GreadyAlgorithm._01_Medium
 {
-    internal class ValidateStartingCity
+    public class ValidateStartingCity
     {
     }
 }
