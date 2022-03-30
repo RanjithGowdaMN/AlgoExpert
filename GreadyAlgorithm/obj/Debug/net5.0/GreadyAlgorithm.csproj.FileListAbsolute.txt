@@ -1,0 +1,5 @@
+D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.csproj.AssemblyReference.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.AssemblyInfoInputs.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.AssemblyInfo.cs
+D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+D:\01 Training\GitRepo\AlgoExpertQuestions\Searching\obj\Debug\net5.0\Searching.csproj.AssemblyReference.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Searching\obj\Debug\net5.0\Searching.GeneratedMSBuildEditorConfig.editorconfig
+D:\01 Training\GitRepo\AlgoExpertQuestions\Searching\obj\Debug\net5.0\Searching.AssemblyInfoInputs.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Searching\obj\Debug\net5.0\Searching.AssemblyInfo.cs
+D:\01 Training\GitRepo\AlgoExpertQuestions\Searching\obj\Debug\net5.0\Searching.csproj.CoreCompileInputs.cache

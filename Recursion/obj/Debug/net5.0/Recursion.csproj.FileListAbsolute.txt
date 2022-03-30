@@ -1,0 +1,5 @@
+D:\01 Training\GitRepo\AlgoExpertQuestions\Recursion\obj\Debug\net5.0\Recursion.csproj.AssemblyReference.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Recursion\obj\Debug\net5.0\Recursion.GeneratedMSBuildEditorConfig.editorconfig
+D:\01 Training\GitRepo\AlgoExpertQuestions\Recursion\obj\Debug\net5.0\Recursion.AssemblyInfoInputs.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Recursion\obj\Debug\net5.0\Recursion.AssemblyInfo.cs
+D:\01 Training\GitRepo\AlgoExpertQuestions\Recursion\obj\Debug\net5.0\Recursion.csproj.CoreCompileInputs.cache

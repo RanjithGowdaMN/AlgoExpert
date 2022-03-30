@@ -82,10 +82,6 @@ namespace LinkedList._01_Medium
 				}
 
 			}
-
-
-
-
 		return newLinkedList.next;
 		}
 	}

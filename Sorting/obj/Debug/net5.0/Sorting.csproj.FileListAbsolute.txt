@@ -1,0 +1,5 @@
+D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.csproj.AssemblyReference.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.AssemblyInfoInputs.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.AssemblyInfo.cs
+D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.csproj.CoreCompileInputs.cache

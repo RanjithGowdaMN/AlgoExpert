@@ -1,0 +1,5 @@
+D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTrees.csproj.AssemblyReference.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTrees.GeneratedMSBuildEditorConfig.editorconfig
+D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTrees.AssemblyInfoInputs.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTrees.AssemblyInfo.cs
+D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTrees.csproj.CoreCompileInputs.cache
