@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M6xWXpW+OtfGdQxSOlbZknFS/jmtcReTnO1gLKa805tnBLhalOUgojWblNMhVu93Zv5A+jNLNMV9XYEXlXjVEA==",
+  "dgSpecHash": "jq9mQYSbWm7b6nPP+NqnJsfk3VIrdK0d/0vrEyx+oZ0kmFlWDLhgauIVCldEwoPvzG1kCNSxin+uTh9Kb4djuA==",
   "success": true,
   "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\Recursion\\Recursion.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

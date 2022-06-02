@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "27ibj8kd53RabxcKgK23jKCkkaF8hbus1gN3Qs8dgUI/hazEeBJ8PDk/IcAge/k91VQG9jSHDt0mTfUJIS6ODg==",
+  "dgSpecHash": "iqNrEguVLtNNCWXQ6J+/DWgNu+SC4Ljt1uYTqmQhxkRuGhJQmhqeiRLpVJT4fCgSnN3w5cE3MbSobo+q0mHsyw==",
   "success": true,
   "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\DynamicProgramming\\DynamicProgramming.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

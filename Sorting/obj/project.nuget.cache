@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pjkzlr7JE/KVh++aYqepI8vPWXOeLgH/R3Hf73umD6XucHMFXwdObEpwInZAR29Vc1Xruk0r1WBXBV0j6qpDWw==",
+  "dgSpecHash": "/pI0QczMM1/4HCSwXEobZsPX1aIInNqYCTxI8TjVV/jUPiuqgZTxR5TpXK5LJOOMzZY72VGPLkNtuwhXfob1dQ==",
   "success": true,
   "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\Sorting\\Sorting.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

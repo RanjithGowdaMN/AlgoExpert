@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W7AS3JW+8WN2hGbGI45jVC3dl6fPgQZu1+VW4kw7aqMmTkIvxVBumAo7ubL+/CoCy4fNxe2dAsGvUEapPukS9Q==",
+  "dgSpecHash": "ETQdCJeyvvtGuhZwcluLX5edCNQid1NWQoASBiz5aCe/tloGFpUe/hevSmqbxEEcvipHK2xPR27TTs5lsfQWow==",
   "success": true,
   "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\BinarySearchTrees\\BinarySearchTrees.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

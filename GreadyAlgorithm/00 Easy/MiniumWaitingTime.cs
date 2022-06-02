@@ -1,12 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace GreadyAlgorithm._00_Easy
+public class MinimumWaitingTimes
 {
-    internal class MiniumWaitingTime
-    {
-    }
+
+	public int MinimumWaitingTime(int[] queries)
+	{
+		// Write your code here.
+		Array.Sort(queries);
+
+		int sum = 0;
+		for (int i = 0; i < queries.Length; i++)
+		{
+			int duration = queries[i];
+			int queriesLeft = queries.Length - (i + 1);
+			sum += duration * queriesLeft;
+		}
+
+		return sum;
+	}
 }

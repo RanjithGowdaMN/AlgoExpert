@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "etGvf0ZWGyc0l0eJKImpxoV9RDxsuYN/uq47oGyNzDjaUbwCIN33Ch+JmhOoa3lzlzsCGGmRWc8701WS5RKnPw==",
+  "dgSpecHash": "+2Dy5B2WALtyaSmtYd95uxF9pFlgSzX0B+GxCGaLFK85cfya28mR3eO8tev+6lt8gIew+8Py4SQaWn0K8YFWJg==",
   "success": true,
   "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\Graphs\\Graphs.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
