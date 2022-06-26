@@ -14,7 +14,6 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\bin\Debug\net5.0\
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\bin\Debug\net5.0\AlgoExpertTestCases.runtimeconfig.json
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\bin\Debug\net5.0\AlgoExpertTestCases.runtimeconfig.dev.json
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\bin\Debug\net5.0\AlgoExpertTestCases.dll
-D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\bin\Debug\net5.0\ref\AlgoExpertTestCases.dll
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\bin\Debug\net5.0\AlgoExpertTestCases.pdb
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
@@ -104,3 +103,4 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\obj\Debug\net5.0\
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\obj\Debug\net5.0\ref\AlgoExpertTestCases.dll
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\obj\Debug\net5.0\AlgoExpertTestCases.pdb
 D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\obj\Debug\net5.0\AlgoExpertTestCases.genruntimeconfig.cache
+D:\01 Training\GitRepo\AlgoExpertQuestions\AlgoExpertTestCases\obj\Debug\net5.0\refint\AlgoExpertTestCases.dll
