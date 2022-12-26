@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ae5fg5BrVjS4BZGY5PBVCc069x2BkVgEeb1QvtAXzF3Qu7qpwaxndrM5VW1SCZdJFkPZdFkrzXjnoF/ssJ+15g==",
+  "dgSpecHash": "x2Sw3SAuxV004dAuKWSEqFLJ72wsgL0RgjHges4zIQw81x7bMTwAq353QXV0X30/9m2N028ukWih0G/ja912Rw==",
   "success": true,
-  "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\Stacks\\Stacks.csproj",
+  "projectFilePath": "D:\\CSharpDemo\\AlgoExpert\\Stacks\\Stacks.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

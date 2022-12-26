@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TdE83Ons+k5S8lyVKEfXNao8LFvLDeUqzeAsv7b3/tBugfATTNlxmGXuZNzlWFpqINiWy9uv59jmLpIEubBc7w==",
+  "dgSpecHash": "Xyccrx90VQGhCwkhj8DYoriRqpFh5mS5bzaKKUdefs3Q/fbvzcMulXRJQ2oS1VY9fMtg2IkJPYtde/ayQ+qqMw==",
   "success": true,
-  "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
+  "projectFilePath": "D:\\CSharpDemo\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
