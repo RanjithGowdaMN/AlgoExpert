@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m1TAUxiRkz8KmUpnq5m+Wu7Y4zXsbm+tOMUVQHN9iD4XsTjfcvvJI4GQUZsLhViaQgqomlpPEomZRVT0wTF1Eg==",
+  "dgSpecHash": "sqaAhNFT9IYxv+1FAxjle16cEQp1KmGPQE/IQA0E5TaiihYmfndMtxeP+sRC3oSFyaqd80fG3GAUUGRpQUylYQ==",
   "success": true,
-  "projectFilePath": "D:\\01 Training\\GitRepo\\AlgoExpertQuestions\\Heaps\\Heaps.csproj",
+  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\Heaps\\Heaps.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

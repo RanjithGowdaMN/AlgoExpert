@@ -6,8 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="04 Very Hard\**" />
+    <EmbeddedResource Remove="04 Very Hard\**" />
+    <None Remove="04 Very Hard\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="01 Easy\" />
-    <Folder Include="04 Very Hard\" />
   </ItemGroup>
 
 </Project>
