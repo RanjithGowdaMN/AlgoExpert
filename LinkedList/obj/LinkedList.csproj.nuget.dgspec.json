@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\00ProjectRepos\\AlgoExpert\\LinkedList\\LinkedList.csproj": {}
+    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\LinkedList\\LinkedList.csproj": {}
   },
   "projects": {
-    "D:\\00ProjectRepos\\AlgoExpert\\LinkedList\\LinkedList.csproj": {
+    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\00ProjectRepos\\AlgoExpert\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "D:\\00ProjectRepos\\AlgoExpert\\LinkedList\\LinkedList.csproj",
+        "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\LinkedList\\LinkedList.csproj",
         "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-        "outputPath": "D:\\00ProjectRepos\\AlgoExpert\\LinkedList\\obj\\",
+        "outputPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

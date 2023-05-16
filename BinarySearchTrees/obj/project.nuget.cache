@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WOahpmHbj/swt9Zzm/TwaqQWB5nYFpSD5klHltyIRnfvhau0rdZxMxktmd6pqws+AJHX9L+L7LrAEvNrN/JkIQ==",
+  "dgSpecHash": "IozV/rRdKvzI6xYEqCk/kOD54nbkUi+0nR1n8BHULjtfDwWJnsNk6qa3lyT/Xyns7T1yR7PX/kPHZJ8Zt7RuDg==",
   "success": true,
-  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\BinarySearchTrees\\BinarySearchTrees.csproj",
+  "projectFilePath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\BinarySearchTrees\\BinarySearchTrees.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\BinarySearchTrees\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

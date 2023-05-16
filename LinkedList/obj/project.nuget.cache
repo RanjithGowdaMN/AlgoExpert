@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HYV1iSHjMd0GXdv1BDLeMEO6kwUmv+m5wZNEFIba8JaAZsTLGkWRuJv2PssmP32ZWi83pXBOBZfHSto3tb5B1A==",
+  "dgSpecHash": "WAGSJGDYQ7DPaR5HX4D8SudD4Aqr5eM0l6KXIMzAdJirWiOyDkSfeWQMWipF4oNzc4nFCx/hBaMDINzuk/TVrw==",
   "success": true,
-  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\LinkedList\\LinkedList.csproj",
+  "projectFilePath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\LinkedList\\LinkedList.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\LinkedList\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

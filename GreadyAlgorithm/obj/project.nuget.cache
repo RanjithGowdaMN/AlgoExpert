@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I5Kq4b7c7g2RsqCOJ0DLDIUx6KdDDv/XVnjY/qxzOTW6NYWtXe1uTfCwUUNhFTmHVrOyviqcxAfAf1LCy4HdIw==",
+  "dgSpecHash": "O+4eRID3sDo/hB7O01cLC1fjNncwCy5/ebMKOrEfH6sEGhp6Dk/vtjcEKv8FKQRRgQrBICRn2Gpj8JgVvFw/cQ==",
   "success": true,
-  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
+  "projectFilePath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\GreadyAlgorithm\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

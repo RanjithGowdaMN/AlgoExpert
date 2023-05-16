@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\00ProjectRepos\\AlgoExpert\\Searching\\Searching.csproj": {}
+    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Searching\\Searching.csproj": {}
   },
   "projects": {
-    "D:\\00ProjectRepos\\AlgoExpert\\Searching\\Searching.csproj": {
+    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Searching\\Searching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\00ProjectRepos\\AlgoExpert\\Searching\\Searching.csproj",
+        "projectUniqueName": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Searching\\Searching.csproj",
         "projectName": "Searching",
-        "projectPath": "D:\\00ProjectRepos\\AlgoExpert\\Searching\\Searching.csproj",
+        "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Searching\\Searching.csproj",
         "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-        "outputPath": "D:\\00ProjectRepos\\AlgoExpert\\Searching\\obj\\",
+        "outputPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Searching\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

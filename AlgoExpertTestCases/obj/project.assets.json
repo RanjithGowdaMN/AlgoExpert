@@ -1660,16 +1660,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "Arrays/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Arrays.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Arrays.dll": {}
-        }
       }
     }
   },
@@ -6113,16 +6103,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Arrays/1.0.0": {
-      "type": "project",
-      "path": "../Arrays/Arrays.csproj",
-      "msbuildProject": "../Arrays/Arrays.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Arrays >= 1.0.0",
+      "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
@@ -6137,11 +6122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\00ProjectRepos\\AlgoExpert\\AlgoExpertTestCases\\AlgoExpertTestCases.csproj",
+      "projectUniqueName": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\AlgoExpertTestCases\\AlgoExpertTestCases.csproj",
       "projectName": "AlgoExpertTestCases",
-      "projectPath": "D:\\00ProjectRepos\\AlgoExpert\\AlgoExpertTestCases\\AlgoExpertTestCases.csproj",
+      "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\AlgoExpertTestCases\\AlgoExpertTestCases.csproj",
       "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-      "outputPath": "D:\\00ProjectRepos\\AlgoExpert\\AlgoExpertTestCases\\obj\\",
+      "outputPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\AlgoExpertTestCases\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6165,8 +6150,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\00ProjectRepos\\AlgoExpert\\Arrays\\Arrays.csproj": {
-              "projectPath": "D:\\00ProjectRepos\\AlgoExpert\\Arrays\\Arrays.csproj"
+            "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj": {
+              "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj"
             }
           }
         }
@@ -6219,10 +6204,13 @@
   },
   "logs": [
     {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\AlgoExpertTestCases\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
     }
   ]
 }

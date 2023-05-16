@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sqaAhNFT9IYxv+1FAxjle16cEQp1KmGPQE/IQA0E5TaiihYmfndMtxeP+sRC3oSFyaqd80fG3GAUUGRpQUylYQ==",
+  "dgSpecHash": "dBZoC06NtWVVO1J2fLz6SY/1Hpqtq9Xtq7bIuH7TOeGxJ6yxBY21Ow4JseTGfemV7LLKTesAl62OiDq4DkjUdQ==",
   "success": true,
-  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\Heaps\\Heaps.csproj",
+  "projectFilePath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Heaps\\Heaps.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\Heaps\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

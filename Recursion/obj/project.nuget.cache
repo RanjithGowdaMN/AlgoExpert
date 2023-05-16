@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "szypu3YP740H5x+PWJ8yDalNU9PAE3Ctstq/I7VN2/ALV3QHLedr9M9DMKU0WsXDzKCrNeZtbZHiMlfkdJZnzg==",
+  "dgSpecHash": "YOE0ZcFOxmw4Bdu4XdyIKpc5NSCB64C4sAcx6f+PCB2aQ2GwbkHbzmV2Es1Tad+j82XmAINlUk4yggfWtXxs3g==",
   "success": true,
-  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\Recursion\\Recursion.csproj",
+  "projectFilePath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Recursion\\Recursion.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\Recursion\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

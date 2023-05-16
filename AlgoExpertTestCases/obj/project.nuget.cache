@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KsXB1FTy4bnIKmBuwOd6ClOddv2kjlTP+hyRsaVhDaupM2mB5dUPGLRnV7+HzetP9ahCKpqP/lhykvrn4J+42Q==",
-  "success": true,
-  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\AlgoExpertTestCases\\AlgoExpertTestCases.csproj",
+  "dgSpecHash": "/zzZIi9vVKQamXVzAcPtCswfR/yftvVIUhx/yjPAV6XeMbWhD0HP0zUEx5IkxuMirmmn0kqiDwr/5VAL0Fw2/A==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\AlgoExpertTestCases\\AlgoExpertTestCases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ranji\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Ranji\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
@@ -95,10 +95,13 @@
   ],
   "logs": [
     {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\AlgoExpertTestCases\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
     }
   ]
 }

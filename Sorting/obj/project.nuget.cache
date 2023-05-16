@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8FuZekHyMn9w7O7REIFKrzp0F0CuSDGvIoqB3LeWs79C2U9X2rZW2lXvwUBcQCEmsCLBCwp3gGMYgsWcpAQYjg==",
+  "dgSpecHash": "nwThIjHlmJ16ZKMCrhlfko9UVF2ILSGqgK5WObXEooQ8dMlEJINTYWh9WPwS3QuZXlp2BhYMFgb5THnUFVhMwg==",
   "success": true,
-  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\Sorting\\Sorting.csproj",
+  "projectFilePath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Sorting\\Sorting.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\Sorting\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

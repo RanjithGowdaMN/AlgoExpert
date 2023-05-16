@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\00ProjectRepos\\AlgoExpert\\Tries\\Tries.csproj": {}
+    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Tries\\Tries.csproj": {}
   },
   "projects": {
-    "D:\\00ProjectRepos\\AlgoExpert\\Tries\\Tries.csproj": {
+    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Tries\\Tries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\00ProjectRepos\\AlgoExpert\\Tries\\Tries.csproj",
+        "projectUniqueName": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Tries\\Tries.csproj",
         "projectName": "Tries",
-        "projectPath": "D:\\00ProjectRepos\\AlgoExpert\\Tries\\Tries.csproj",
+        "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Tries\\Tries.csproj",
         "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-        "outputPath": "D:\\00ProjectRepos\\AlgoExpert\\Tries\\obj\\",
+        "outputPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Tries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
