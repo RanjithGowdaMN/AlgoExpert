@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "D:\\00ProjectRepos\\AlgoExpert\\Graphs\\Graphs.csproj": {}
+  },
+  "projects": {
+    "D:\\00ProjectRepos\\AlgoExpert\\Graphs\\Graphs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\00ProjectRepos\\AlgoExpert\\Graphs\\Graphs.csproj",
+        "projectName": "Graphs",
+        "projectPath": "D:\\00ProjectRepos\\AlgoExpert\\Graphs\\Graphs.csproj",
+        "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
+        "outputPath": "D:\\00ProjectRepos\\AlgoExpert\\Graphs\\obj\\",
+=======
     "D:\\CSharpDemo\\AlgoExpert\\Graphs\\Graphs.csproj": {}
   },
   "projects": {
@@ -12,6 +25,7 @@
         "projectPath": "D:\\CSharpDemo\\AlgoExpert\\Graphs\\Graphs.csproj",
         "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
         "outputPath": "D:\\CSharpDemo\\AlgoExpert\\Graphs\\obj\\",
+>>>>>>> d5b39ff50575185b4a26f5e85a1f1172e2e72246
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

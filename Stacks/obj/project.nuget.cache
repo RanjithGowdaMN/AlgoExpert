@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "xcEfBgsAI+kobm8CLSYSm3pbLR2RV86BPCOw40dCFUaavsizgji2dJ2I2s3uFpQXaemqXLCpIB5P5/aOu7QfqA==",
+  "success": true,
+  "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\Stacks\\Stacks.csproj",
+=======
   "dgSpecHash": "x2Sw3SAuxV004dAuKWSEqFLJ72wsgL0RgjHges4zIQw81x7bMTwAq353QXV0X30/9m2N028ukWih0G/ja912Rw==",
   "success": true,
   "projectFilePath": "D:\\CSharpDemo\\AlgoExpert\\Stacks\\Stacks.csproj",
+>>>>>>> d5b39ff50575185b4a26f5e85a1f1172e2e72246
   "expectedPackageFiles": [],
   "logs": []
 }
