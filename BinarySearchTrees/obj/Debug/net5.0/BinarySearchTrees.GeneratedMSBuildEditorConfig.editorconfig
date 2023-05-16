@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = BinarySearchTrees
-build_property.ProjectDir = D:\CSharpDemo\AlgoExpert\BinarySearchTrees\
+build_property.ProjectDir = D:\00ProjectRepos\AlgoExpert\BinarySearchTrees\

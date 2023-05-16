@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "xQpuGWU+3QanQGueboHUsZxxEQGU/GdxK/KK8fShnFfYiUklPj7EMpBJlduKiGVfkbmRfLK4QL+pv0Eg+c9++w==",
   "success": true,
   "projectFilePath": "D:\\00ProjectRepos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj",
-=======
-  "dgSpecHash": "ZIY4kuAuc2b7W6Odz8QbE3CaH1sixfkEuvwGRIXmNdJQIkC4zKgKEOh//rhNN1ojTC3gNgOE57Ckue6peIGU/Q==",
-  "success": true,
-  "projectFilePath": "D:\\CSharpDemo\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj",
->>>>>>> d5b39ff50575185b4a26f5e85a1f1172e2e72246
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\PopularAlgorithm\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
