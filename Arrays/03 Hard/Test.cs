@@ -15,12 +15,12 @@ namespace Arrays._03_Hard
               
         //}
 
-        public static void Tewserfst(float t)
-        {
-            object obj = t;
-            int y = (int)(float)obj;
-            Console.WriteLine(y);
+        //public static void Tewserfst(float t)
+        //{
+        //    object obj = t;
+        //    int y = (int)(float)obj;
+        //    Console.WriteLine(y);
 
-        }
+        //}
     }
 }
