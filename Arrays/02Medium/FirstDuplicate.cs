@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace Arrays
@@ -24,7 +25,18 @@ namespace Arrays
             }
             return -1;
         }
-
-        
     }
 }
+
+//public class ProgramTest
+//{
+//    [Test]
+//    public void TestCase1()
+//    {
+//        var input = new int[] { 2, 1, 5, 2, 3, 3, 4 };
+//        var expected = 2;
+//        var actual = new FirstDuplicate().FirstDuplicateValue(input);
+//        Utils.AssertTrue(expected == actual);
+//    }
+//}
+
