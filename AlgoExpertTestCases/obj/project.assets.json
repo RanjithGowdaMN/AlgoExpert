@@ -1660,6 +1660,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Arrays/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Arrays.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Arrays.dll": {}
+        }
       }
     }
   },
@@ -6103,11 +6113,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Arrays/1.0.0": {
+      "type": "project",
+      "path": "../Arrays/Arrays.csproj",
+      "msbuildProject": "../Arrays/Arrays.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Arrays\\Arrays.csproj",
+      "Arrays >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
@@ -6201,16 +6216,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Arrays\\Arrays.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Arrays\\Arrays.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }
