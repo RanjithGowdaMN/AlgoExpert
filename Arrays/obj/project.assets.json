@@ -15,19 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\00ProjectRepos\\AlgoExpert\\Arrays\\Arrays.csproj",
       "projectName": "Arrays",
       "projectPath": "D:\\00ProjectRepos\\AlgoExpert\\Arrays\\Arrays.csproj",
       "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
       "outputPath": "D:\\00ProjectRepos\\AlgoExpert\\Arrays\\obj\\",
-=======
-      "projectUniqueName": "D:\\CSharpDemo\\AlgoExpert\\Arrays\\Arrays.csproj",
-      "projectName": "Arrays",
-      "projectPath": "D:\\CSharpDemo\\AlgoExpert\\Arrays\\Arrays.csproj",
-      "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-      "outputPath": "D:\\CSharpDemo\\AlgoExpert\\Arrays\\obj\\",
->>>>>>> d5b39ff50575185b4a26f5e85a1f1172e2e72246
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -80,5 +72,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\00ProjectRepos\\AlgoExpert\\Arrays\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
