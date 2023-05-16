@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
+    <Folder Include="04 Very Hard\" />
+=======
     <Compile Remove="04 Very Hard\**" />
     <EmbeddedResource Remove="04 Very Hard\**" />
     <None Remove="04 Very Hard\**" />
@@ -13,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="01 Easy\" />
+>>>>>>> 45ca027750136c086d4ca6e25da557e4cc3b93a0
   </ItemGroup>
 
 </Project>
