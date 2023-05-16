@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\BinaryTrees\\BinaryTrees.csproj": {}
+    "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\BinaryTrees\\BinaryTrees.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\BinaryTrees\\BinaryTrees.csproj": {
+    "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\BinaryTrees\\BinaryTrees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\BinaryTrees\\BinaryTrees.csproj",
+        "projectUniqueName": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\BinaryTrees\\BinaryTrees.csproj",
         "projectName": "BinaryTrees",
-        "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\BinaryTrees\\BinaryTrees.csproj",
+        "projectPath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\BinaryTrees\\BinaryTrees.csproj",
         "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\BinaryTrees\\obj\\",
+        "outputPath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\BinaryTrees\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

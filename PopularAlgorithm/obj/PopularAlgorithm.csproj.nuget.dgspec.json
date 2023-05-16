@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj": {}
+    "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj": {
+    "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj",
+        "projectUniqueName": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj",
         "projectName": "PopularAlgorithm",
-        "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj",
+        "projectPath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\PopularAlgorithm\\PopularAlgorithm.csproj",
         "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\PopularAlgorithm\\obj\\",
+        "outputPath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\PopularAlgorithm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

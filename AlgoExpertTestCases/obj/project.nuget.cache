@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/zzZIi9vVKQamXVzAcPtCswfR/yftvVIUhx/yjPAV6XeMbWhD0HP0zUEx5IkxuMirmmn0kqiDwr/5VAL0Fw2/A==",
+  "dgSpecHash": "B0nq/FC/5W9jIT6h8e0zZqKfU5+by2XTjQQxcfVGnMJRwaGJL+T6o5nbugkuHs6XIp6aR401ZhxMYt/PkCHKnQ==",
   "success": false,
-  "projectFilePath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\AlgoExpertTestCases\\AlgoExpertTestCases.csproj",
+  "projectFilePath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\AlgoExpertTestCases\\AlgoExpertTestCases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ranji\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Ranji\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
@@ -97,8 +97,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Arrays\\Arrays.csproj",
+      "message": "Unable to find project information for 'C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Arrays\\Arrays.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Arrays\\Arrays.csproj",
       "targetGraphs": [
         "net5.0"
       ]

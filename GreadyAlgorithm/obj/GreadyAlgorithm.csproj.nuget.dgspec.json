@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj": {}
+    "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj": {
+    "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
+        "projectUniqueName": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
         "projectName": "GreadyAlgorithm",
-        "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
+        "projectPath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\GreadyAlgorithm\\GreadyAlgorithm.csproj",
         "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\GreadyAlgorithm\\obj\\",
+        "outputPath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\GreadyAlgorithm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

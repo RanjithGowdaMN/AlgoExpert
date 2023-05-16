@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Heaps\\Heaps.csproj": {}
+    "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Heaps\\Heaps.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Heaps\\Heaps.csproj": {
+    "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Heaps\\Heaps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Heaps\\Heaps.csproj",
+        "projectUniqueName": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Heaps\\Heaps.csproj",
         "projectName": "Heaps",
-        "projectPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Heaps\\Heaps.csproj",
+        "projectPath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Heaps\\Heaps.csproj",
         "packagesPath": "C:\\Users\\Ranji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ranji\\Source\\Repos\\AlgoExpert\\Heaps\\obj\\",
+        "outputPath": "C:\\Users\\Ranji\\source\\repos\\AlgoExpert\\Heaps\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
