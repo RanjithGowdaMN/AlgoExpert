@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="01 Medium\" />
-    <Folder Include="02 Hard\" />
     <Folder Include="03 Very Hard\" />
   </ItemGroup>
 
