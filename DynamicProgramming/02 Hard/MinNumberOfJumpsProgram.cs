@@ -8,10 +8,10 @@ namespace DynamicProgramming._02_Hard
 {
     class MinNumberOfJumpsProgram
     {
-        public static void Main()
-        {
-            MinNumberOfJumpsSol2(new int[] { 3,4,2,1,2,3,7,1,1,1,3 });
-        }
+        //public static void Main()
+        //{
+        //    MinNumberOfJumpsSol2(new int[] { 3,4,2,1,2,3,7,1,1,1,3 });
+        //}
         public static int MinNumberOfJumpsSol1(int[] array)
         {
             // Write your code here.
