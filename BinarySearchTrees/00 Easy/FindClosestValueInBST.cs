@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTrees._00_Easy
 {
-    internal class FindClosestValueInBST
+    public static class FindClosestValueInBST
     {
+        public static void Main()
+        {
+
+        }
     }
 }

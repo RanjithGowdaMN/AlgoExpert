@@ -3,3 +3,8 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\Tries\obj\Debug\net5.0\Tries.Generate
 D:\01 Training\GitRepo\AlgoExpertQuestions\Tries\obj\Debug\net5.0\Tries.AssemblyInfoInputs.cache
 D:\01 Training\GitRepo\AlgoExpertQuestions\Tries\obj\Debug\net5.0\Tries.AssemblyInfo.cs
 D:\01 Training\GitRepo\AlgoExpertQuestions\Tries\obj\Debug\net5.0\Tries.csproj.CoreCompileInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Tries\obj\Debug\net5.0\Tries.csproj.AssemblyReference.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Tries\obj\Debug\net5.0\Tries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ranji\source\repos\AlgoExpert\Tries\obj\Debug\net5.0\Tries.AssemblyInfoInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Tries\obj\Debug\net5.0\Tries.AssemblyInfo.cs
+C:\Users\Ranji\source\repos\AlgoExpert\Tries\obj\Debug\net5.0\Tries.csproj.CoreCompileInputs.cache

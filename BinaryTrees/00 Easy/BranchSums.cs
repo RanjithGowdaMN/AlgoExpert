@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BinaryTrees._00_Easy
 {
-    internal class BranchSums
+    public static class BranchSums
     {
+        public static void Main()
+        {
+
+        }
     }
 }

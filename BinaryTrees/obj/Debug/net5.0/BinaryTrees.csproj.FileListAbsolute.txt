@@ -3,3 +3,19 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTr
 D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTrees.AssemblyInfoInputs.cache
 D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTrees.AssemblyInfo.cs
 D:\01 Training\GitRepo\AlgoExpertQuestions\BinaryTrees\obj\Debug\net5.0\BinaryTrees.csproj.CoreCompileInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\BinaryTrees.csproj.AssemblyReference.cache
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\BinaryTrees.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\BinaryTrees.AssemblyInfoInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\BinaryTrees.AssemblyInfo.cs
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\BinaryTrees.csproj.CoreCompileInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\bin\Debug\net5.0\BinaryTrees.exe
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\bin\Debug\net5.0\BinaryTrees.deps.json
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\bin\Debug\net5.0\BinaryTrees.runtimeconfig.json
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\bin\Debug\net5.0\BinaryTrees.runtimeconfig.dev.json
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\bin\Debug\net5.0\BinaryTrees.dll
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\bin\Debug\net5.0\ref\BinaryTrees.dll
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\bin\Debug\net5.0\BinaryTrees.pdb
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\BinaryTrees.dll
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\ref\BinaryTrees.dll
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\BinaryTrees.pdb
+C:\Users\Ranji\source\repos\AlgoExpert\BinaryTrees\obj\Debug\net5.0\BinaryTrees.genruntimeconfig.cache

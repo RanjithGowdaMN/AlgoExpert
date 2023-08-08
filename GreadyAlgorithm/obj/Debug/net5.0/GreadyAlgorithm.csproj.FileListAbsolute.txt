@@ -3,3 +3,19 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\Grea
 D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.AssemblyInfoInputs.cache
 D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.AssemblyInfo.cs
 D:\01 Training\GitRepo\AlgoExpertQuestions\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.csproj.AssemblyReference.cache
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.AssemblyInfoInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.AssemblyInfo.cs
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\bin\Debug\net5.0\GreadyAlgorithm.exe
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\bin\Debug\net5.0\GreadyAlgorithm.deps.json
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\bin\Debug\net5.0\GreadyAlgorithm.runtimeconfig.json
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\bin\Debug\net5.0\GreadyAlgorithm.runtimeconfig.dev.json
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\bin\Debug\net5.0\GreadyAlgorithm.dll
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\bin\Debug\net5.0\ref\GreadyAlgorithm.dll
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\bin\Debug\net5.0\GreadyAlgorithm.pdb
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.dll
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\ref\GreadyAlgorithm.dll
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.pdb
+C:\Users\Ranji\source\repos\AlgoExpert\GreadyAlgorithm\obj\Debug\net5.0\GreadyAlgorithm.genruntimeconfig.cache

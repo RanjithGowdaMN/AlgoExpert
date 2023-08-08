@@ -14,3 +14,8 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\Strings\obj\Debug\net5.0\Strings.dll
 D:\01 Training\GitRepo\AlgoExpertQuestions\Strings\obj\Debug\net5.0\ref\Strings.dll
 D:\01 Training\GitRepo\AlgoExpertQuestions\Strings\obj\Debug\net5.0\Strings.pdb
 D:\01 Training\GitRepo\AlgoExpertQuestions\Strings\obj\Debug\net5.0\Strings.genruntimeconfig.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Strings\obj\Debug\net5.0\Strings.csproj.AssemblyReference.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Strings\obj\Debug\net5.0\Strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ranji\source\repos\AlgoExpert\Strings\obj\Debug\net5.0\Strings.AssemblyInfoInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Strings\obj\Debug\net5.0\Strings.AssemblyInfo.cs
+C:\Users\Ranji\source\repos\AlgoExpert\Strings\obj\Debug\net5.0\Strings.csproj.CoreCompileInputs.cache

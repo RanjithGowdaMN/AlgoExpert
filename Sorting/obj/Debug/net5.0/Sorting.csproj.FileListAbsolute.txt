@@ -3,3 +3,8 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.Gene
 D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.AssemblyInfoInputs.cache
 D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.AssemblyInfo.cs
 D:\01 Training\GitRepo\AlgoExpertQuestions\Sorting\obj\Debug\net5.0\Sorting.csproj.CoreCompileInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Sorting\obj\Debug\net5.0\Sorting.csproj.AssemblyReference.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Sorting\obj\Debug\net5.0\Sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ranji\source\repos\AlgoExpert\Sorting\obj\Debug\net5.0\Sorting.AssemblyInfoInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\Sorting\obj\Debug\net5.0\Sorting.AssemblyInfo.cs
+C:\Users\Ranji\source\repos\AlgoExpert\Sorting\obj\Debug\net5.0\Sorting.csproj.CoreCompileInputs.cache

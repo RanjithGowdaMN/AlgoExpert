@@ -3,3 +3,8 @@ D:\01 Training\GitRepo\AlgoExpertQuestions\PopularAlgorithm\obj\Debug\net5.0\Pop
 D:\01 Training\GitRepo\AlgoExpertQuestions\PopularAlgorithm\obj\Debug\net5.0\PopularAlgorithm.AssemblyInfoInputs.cache
 D:\01 Training\GitRepo\AlgoExpertQuestions\PopularAlgorithm\obj\Debug\net5.0\PopularAlgorithm.AssemblyInfo.cs
 D:\01 Training\GitRepo\AlgoExpertQuestions\PopularAlgorithm\obj\Debug\net5.0\PopularAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\PopularAlgorithm\obj\Debug\net5.0\PopularAlgorithm.csproj.AssemblyReference.cache
+C:\Users\Ranji\source\repos\AlgoExpert\PopularAlgorithm\obj\Debug\net5.0\PopularAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ranji\source\repos\AlgoExpert\PopularAlgorithm\obj\Debug\net5.0\PopularAlgorithm.AssemblyInfoInputs.cache
+C:\Users\Ranji\source\repos\AlgoExpert\PopularAlgorithm\obj\Debug\net5.0\PopularAlgorithm.AssemblyInfo.cs
+C:\Users\Ranji\source\repos\AlgoExpert\PopularAlgorithm\obj\Debug\net5.0\PopularAlgorithm.csproj.CoreCompileInputs.cache

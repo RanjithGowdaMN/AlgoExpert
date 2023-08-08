@@ -14,7 +14,7 @@ namespace AlgoExpertTestCases.ArraysTest
             List<int> test1 = new List<int>() {3,9 };
             int[] test2 = new int[2];
 
-            test2 = SubArraySort.SortSubArray(new int[] { 1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19 });
+            test2 = SubArraySortProgram.SubArraySort(new int[] { 1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19 });
 
             
             Assert.AreEqual(test2, test, "Some Error in the output!!!");

@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Arrays._01_Easy
 {
-    class CTwoNumberSum
+    public static class CTwoNumberSum
     {
+        public static void Main()
+        {
+
+        }
         public static int[] TwoNumberSum(int[] array, int targetsum)
         {
             // Write your code here.

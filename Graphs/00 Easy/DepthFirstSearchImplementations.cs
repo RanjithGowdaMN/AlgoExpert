@@ -2,7 +2,7 @@
 
 namespace Graphs._00_Easy
 {
-    public class DepthFirstSearchImplementations
+    public static class DepthFirstSearchImplementations
     {
         public static void Main()
         {

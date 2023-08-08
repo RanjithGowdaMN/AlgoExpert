@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace DynamicProgramming._02_Hard
 {
-    class DiskStackingProgram
+    public static class DiskStackingProgram
     {
-        //public static void Main()
-        //{
-        //    DiskStacking(new List<int[]> { new int[] {2,2,1 },
-        //                                    new int[] {2,1,2 },
-        //                                    new int[] {3,2,3 },
-        //                                    new int[] {2,3,4 },
-        //                                    new int[] {4,4,5 },
-        //                                    new int[] {2,2,8 }});
-        //}
+        public static void Main()
+        {
+            DiskStacking(new List<int[]> { new int[] {2,2,1 },
+                                            new int[] {2,1,2 },
+                                            new int[] {3,2,3 },
+                                            new int[] {2,3,4 },
+                                            new int[] {4,4,5 },
+                                            new int[] {2,2,8 }});
+        }
         public static List<int[]> DiskStacking(List<int[]> disks)
         {
             // Write your code here.

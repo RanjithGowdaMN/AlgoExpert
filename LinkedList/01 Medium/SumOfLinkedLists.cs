@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinkedList._01_Medium
 {
-	public class Program
+	public static class Program
 	{
 		// This is an input class. Do not edit.
 		public class LinkedList
@@ -21,7 +21,7 @@ namespace LinkedList._01_Medium
 			}
 		}
 
-		public LinkedList SumOfLinkedLists(LinkedList linkedListOne, LinkedList linkedListTwo)
+		public static LinkedList SumOfLinkedLists(LinkedList linkedListOne, LinkedList linkedListTwo)
 		{
 			// Write your code here.
 			LinkedList newLinkedList = new LinkedList(0);

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Arrays._03_Hard
 {
-    public class SubArraySort
+    public static class SubArraySortProgram
     {
-        public static int[] SubarraySort(int[] array)
+        public static int[] SubArraySort(int[] array)
         {
             // Write your code here.
             int leftValue = -1;

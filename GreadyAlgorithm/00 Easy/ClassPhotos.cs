@@ -2,9 +2,13 @@
 using System;
 
 
-public class ClassPhoto
+public static class ClassPhoto
 {
-	public bool ClassPhotos(List<int> redShirtHeights, List<int> blueShirtHeights)
+	public static void Main()
+	{
+
+	}
+	public static bool ClassPhotos(List<int> redShirtHeights, List<int> blueShirtHeights)
 	{
 		// Write your code here.
 		redShirtHeights.Sort((a, b) => b.CompareTo(a));
