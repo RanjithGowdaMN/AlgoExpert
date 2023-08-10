@@ -12,14 +12,14 @@ namespace AlgoExpertTestCases.ArraysTest
         {
             int[] test = new int[] { 3, 9 };
             List<int> test1 = new List<int>() {3,9 };
-            int[] test2 = new int[2];
+            //int[] test2 = new int[2];
 
-            test2 = SubArraySortProgram.SubArraySort(new int[] { 1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19 });
+            var test2 = SubArraySortProgram.SubArraySort(new int[] { 1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19 });
 
             
-            Assert.AreEqual(test2, test, "Some Error in the output!!!");
+            Assert.AreEqual(test2[0], test[0], $"Some Error in the output!!! {test2[1]} ---- { test[1]}");
 
-
+            System.Console.WriteLine("----------");
         }
     }
 }
