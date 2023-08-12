@@ -61,7 +61,20 @@ namespace DynamicProgramming._02_Hard
     }
 }
 /*
- Test Case 1 passed!
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[] input = new int[] { 3, 6, 1, -3, 2, 7 };
+    int expected = 4;
+    var actual = new Program().MaximizeExpression(input);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+ 
+
+Test Case 1 passed!
 Expected Output
 4
 Your Code's Output

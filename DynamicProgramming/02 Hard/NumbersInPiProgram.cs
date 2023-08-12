@@ -54,6 +54,25 @@ namespace DynamicProgramming._02_Hard
 }
 
 /*
+ * 
+ public class ProgramTest {
+  string PI = "3141592653589793238462643383279";
+
+  [Test]
+  public void TestCase1() {
+    string[] numbers = new string[] {
+      "314159265358979323846",
+      "26433",
+      "8",
+      "3279",
+      "314159265",
+      "35897932384626433832",
+      "79"
+    };
+    Utils.AssertTrue(Program.NumbersInPi(PI, numbers) == 2);
+  }
+}
+
  Test Case 1 passed!
 Expected Output
 2

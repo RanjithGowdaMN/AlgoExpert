@@ -57,6 +57,21 @@ namespace DynamicProgramming._02_Hard
 }
 
 /*
+ * 
+ * 
+
+// question's sample test case. Feel free to add, edit,
+// or remove test cases in this file as you see fit!
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[] input = { 3, 4, 2, 1, 2, 3, 7, 1, 1, 1, 3 };
+    Utils.AssertTrue(Program.MinNumberOfJumps(input) == 4);
+  }
+}
+
+
 Expected Output
 4
 Your Code's Output

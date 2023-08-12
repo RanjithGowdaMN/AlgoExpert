@@ -46,6 +46,23 @@ namespace DynamicProgramming._02_Hard
 }
 
 /*
+
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var input = new int[] { 0, 2, 5, 6 };
+    var expected = new int[] { 1, 2 };
+    var actual = new Program().JuiceBottling(input);
+    Utils.AssertTrue(expected.Length == actual.Count);
+    for (int i = 0; i < actual.Count; i++) {
+      Utils.AssertTrue(expected[i] == actual[i]);
+    }
+  }
+}
+
+
  Test Case 1 passed!
 Expected Output
 [1]
