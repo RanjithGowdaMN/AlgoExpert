@@ -1,7 +1,4 @@
-C:\Users\Ranji\source\repos\AlgoExpert\Arrays\bin\Debug\net5.0\Arrays.exe
 C:\Users\Ranji\source\repos\AlgoExpert\Arrays\bin\Debug\net5.0\Arrays.deps.json
-C:\Users\Ranji\source\repos\AlgoExpert\Arrays\bin\Debug\net5.0\Arrays.runtimeconfig.json
-C:\Users\Ranji\source\repos\AlgoExpert\Arrays\bin\Debug\net5.0\Arrays.runtimeconfig.dev.json
 C:\Users\Ranji\source\repos\AlgoExpert\Arrays\bin\Debug\net5.0\Arrays.dll
 C:\Users\Ranji\source\repos\AlgoExpert\Arrays\bin\Debug\net5.0\ref\Arrays.dll
 C:\Users\Ranji\source\repos\AlgoExpert\Arrays\bin\Debug\net5.0\Arrays.pdb
@@ -13,4 +10,3 @@ C:\Users\Ranji\source\repos\AlgoExpert\Arrays\obj\Debug\net5.0\Arrays.csproj.Cor
 C:\Users\Ranji\source\repos\AlgoExpert\Arrays\obj\Debug\net5.0\Arrays.dll
 C:\Users\Ranji\source\repos\AlgoExpert\Arrays\obj\Debug\net5.0\ref\Arrays.dll
 C:\Users\Ranji\source\repos\AlgoExpert\Arrays\obj\Debug\net5.0\Arrays.pdb
-C:\Users\Ranji\source\repos\AlgoExpert\Arrays\obj\Debug\net5.0\Arrays.genruntimeconfig.cache

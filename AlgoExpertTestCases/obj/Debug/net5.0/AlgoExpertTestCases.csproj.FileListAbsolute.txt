@@ -111,10 +111,6 @@ C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\obj\Debug\net5.0\Algo
 C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\obj\Debug\net5.0\AlgoExpertTestCases.AssemblyInfo.cs
 C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\obj\Debug\net5.0\AlgoExpertTestCases.csproj.CoreCompileInputs.cache
 C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\bin\Debug\net5.0\testhost.dll
-C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\bin\Debug\net5.0\Arrays.deps.json
-C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\bin\Debug\net5.0\Arrays.runtimeconfig.json
-C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\bin\Debug\net5.0\Arrays.runtimeconfig.dev.json
-C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\bin\Debug\net5.0\Arrays.exe
 C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\bin\Debug\net5.0\LinkedList.deps.json
 C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\bin\Debug\net5.0\LinkedList.runtimeconfig.json
 C:\Users\Ranji\source\repos\AlgoExpert\AlgoExpertTestCases\bin\Debug\net5.0\LinkedList.runtimeconfig.dev.json
