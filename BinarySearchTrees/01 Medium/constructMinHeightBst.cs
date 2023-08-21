@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTrees._01_Medium
 {
-    internal class MinHeightBSTProgram
+    class constructMinHeightBstSol1
     {
         public static BST MinHeightBst(List<int> array)
         {
-            // O(nlog(n)) time | O(n) space
+            // Write your code here.
             return constructMinHeightBst(array, null, 0, array.Count - 1);
         }
         public static BST constructMinHeightBst(
@@ -75,9 +75,10 @@ namespace BinarySearchTrees._01_Medium
     }
 }
 /*
- ________________________________________________________________________________________
-   public static BST MinHeightBst(List<int> array) {
-    // O(n) | O(n) space
+ ____________________________________________________________________________________
+
+  public static BST MinHeightBst(List<int> array) {
+    // Write your code here.
     return constructMinHeightBst(array, null, 0, array.Count-1);
   }
     public static BST constructMinHeightBst(
@@ -129,8 +130,9 @@ namespace BinarySearchTrees._01_Medium
       }
     }
   }
- ________________________________________________________________________________________
- 
+
+__________________________________________________________________________________________________
+
   public static BST MinHeightBst(List<int> array) {
     //Solution 3 O(n) O(n)
     return constructMinHeightBst(array, 0, array.Count-1);
@@ -173,8 +175,9 @@ namespace BinarySearchTrees._01_Medium
       }
     }
   }
-________________________________________________________________________________________
-using System;
+
+____________________________________________________________________________________
+ using System;
 using System.Linq;
 using System.Collections.Generic;
 
@@ -231,7 +234,6 @@ public class ProgramTest {
     return Math.Max(leftTreeHeight, rightTreeHeight);
   }
 }
-
 
 17 / 17 test cases passed.
 
@@ -831,4 +833,6 @@ Input(s)
 {
   "array": [1, 2, 5, 7, 10, 13, 14, 15, 22, 28, 32, 36, 89, 92, 9000, 9001]
 }
+
+ 
  */
