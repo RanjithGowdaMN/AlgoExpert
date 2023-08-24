@@ -35,7 +35,163 @@ namespace Arrays._02Medium
     }
 
 }
+/*
+ using System;
 
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var input = new int[] { 1, 0, 1, 0, 0, 0, 1 };
+    var expected = 4;
+    var actual = new Program().BestSeat(input);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
+14 / 14 test cases passed.
+
+Test Case 1 passed!
+Expected Output
+-1
+Your Code's Output
+-1
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1]
+}
+Test Case 2 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 1, 0, 0, 0, 1]
+}
+Test Case 3 passed!
+Expected Output
+1
+Your Code's Output
+1
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 1]
+}
+Test Case 4 passed!
+Expected Output
+1
+Your Code's Output
+1
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 0, 1]
+}
+Test Case 5 passed!
+Expected Output
+-1
+Your Code's Output
+-1
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 1, 1]
+}
+Test Case 6 passed!
+Expected Output
+1
+Your Code's Output
+1
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 0, 1, 0, 0, 1]
+}
+Test Case 7 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+}
+Test Case 8 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+}
+Test Case 9 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+}
+Test Case 10 passed!
+Expected Output
+13
+Your Code's Output
+13
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+}
+Test Case 11 passed!
+Expected Output
+13
+Your Code's Output
+13
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+}
+Test Case 12 passed!
+Expected Output
+6
+Your Code's Output
+6
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+}
+Test Case 13 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]
+}
+Test Case 14 passed!
+Expected Output
+5
+Your Code's Output
+5
+View Outputs Side By Side
+Input(s)
+{
+  "seats": [1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1]
+}
+
+ */
 /*
  Test Case 1
 {

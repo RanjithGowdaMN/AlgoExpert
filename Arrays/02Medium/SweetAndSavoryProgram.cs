@@ -60,6 +60,22 @@ namespace Arrays._02Medium
 }
 
 /*
+ * 
+ * using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[] dishes = new int[] { -3, -5, 1, 7 };
+    int target = 8;
+    int[] expected = new int[] { -3, 7 };
+    int[] actual = new Program().SweetAndSavory(dishes, target);
+    Utils.AssertTrue(actual.Length == 2);
+    Utils.AssertTrue(actual[0] == expected[0]);
+    Utils.AssertTrue(actual[1] == expected[1]);
+  }
+}
+
  Test Case 1 passed!
 Expected Output
 [0, 0]

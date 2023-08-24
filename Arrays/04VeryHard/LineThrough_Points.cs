@@ -108,7 +108,275 @@ namespace Arrays._04VeryHard
 
 }
 /*
- {
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[][] input = new int[][] {
+      new int[] { 1, 1 },
+      new int[] { 2, 2 },
+      new int[] { 3, 3 },
+      new int[] { 0, 4 },
+      new int[] { -2, 6 },
+      new int[] { 4, 0 },
+      new int[] { 2, 1 },
+    };
+    int expected = 4;
+    int actual = new Program().LineThroughPoints(input);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
+
+12 / 12 test cases passed.
+
+Test Case 1 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [1, 1],
+    [2, 2],
+    [3, 3],
+    [0, 4],
+    [-2, 6],
+    [4, 0],
+    [2, 1]
+  ]
+}
+Test Case 2 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [3, 3],
+    [0, 4],
+    [-2, 6],
+    [4, 0],
+    [2, 1],
+    [3, 4],
+    [5, 6],
+    [0, 0]
+  ]
+}
+Test Case 3 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [1, 4],
+    [3, 5],
+    [7, 1],
+    [5, 4],
+    [4, 5],
+    [9, 2],
+    [1, 3],
+    [2, 8]
+  ]
+}
+Test Case 4 passed!
+Expected Output
+2
+Your Code's Output
+2
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [1, 4],
+    [4, 1],
+    [3, 3]
+  ]
+}
+Test Case 5 passed!
+Expected Output
+1
+Your Code's Output
+1
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [0, 0]
+  ]
+}
+Test Case 6 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [1, 4],
+    [4, 1],
+    [1, 1],
+    [4, 4],
+    [2, 3],
+    [3, 2],
+    [3, 3],
+    [2, 2],
+    [0, 3]
+  ]
+}
+Test Case 7 passed!
+Expected Output
+5
+Your Code's Output
+5
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [1, 4],
+    [4, 1],
+    [1, 1],
+    [4, 4],
+    [2, 3],
+    [3, 2],
+    [3, 3],
+    [2, 2],
+    [0, 3],
+    [5, 3],
+    [3, -1],
+    [2, -3],
+    [1, -5]
+  ]
+}
+Test Case 8 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [-1, -1],
+    [-3, -1],
+    [-4, -1],
+    [1, 1],
+    [4, 1]
+  ]
+}
+Test Case 9 passed!
+Expected Output
+6
+Your Code's Output
+6
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [1, 1],
+    [1, 2],
+    [1, 3],
+    [1, 4],
+    [1, 5],
+    [2, 1],
+    [2, 2],
+    [2, 3],
+    [2, 4],
+    [2, 5],
+    [3, 1],
+    [3, 2],
+    [3, 4],
+    [3, 5],
+    [4, 1],
+    [4, 2],
+    [4, 3],
+    [4, 4],
+    [4, 5],
+    [5, 1],
+    [5, 2],
+    [5, 3],
+    [5, 4],
+    [5, 5],
+    [6, 6],
+    [2, 6]
+  ]
+}
+Test Case 10 passed!
+Expected Output
+8
+Your Code's Output
+8
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [1, 1],
+    [1, 2],
+    [1, 3],
+    [1, 4],
+    [1, 5],
+    [2, 1],
+    [2, 2],
+    [2, 4],
+    [2, 5],
+    [4, 1],
+    [4, 2],
+    [4, 4],
+    [4, 5],
+    [5, 1],
+    [5, 2],
+    [5, 4],
+    [5, 5],
+    [6, 6],
+    [2, 6],
+    [-1, -1],
+    [0, 0],
+    [-2, -2]
+  ]
+}
+Test Case 11 passed!
+Expected Output
+2
+Your Code's Output
+2
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [-78, -9],
+    [67, 87],
+    [46, 87],
+    [4, 5],
+    [9, 83],
+    [34, 47]
+  ]
+}
+Test Case 12 passed!
+Expected Output
+2
+Your Code's Output
+2
+View Outputs Side By Side
+Input(s)
+{
+  "points": [
+    [1000000001, 1],
+    [1, 1],
+    [0, 0]
+  ]
+}
+
+
+{
   "points": [
     [1, 1],
     [2, 2],

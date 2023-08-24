@@ -44,6 +44,23 @@ namespace Arrays._03Hard
 }
 
 /*
+ * 
+ * using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[] array = new int[] { 1, 2, 3, 4, 3, 3, 1, 2, 1 };
+    int targetSum = 10;
+    int[] expected = new int[] { 4, 8 };
+    var actual = new Program().LongestSubarrayWithSum(array, targetSum);
+    Utils.AssertTrue(expected.Length == actual.Length);
+    for (int i = 0; i < actual.Length; i++) {
+      Utils.AssertTrue(actual[i] == expected[i]);
+    }
+  }
+}
+
  Test Case 1 passed!
 Expected Output
 [4, 8]

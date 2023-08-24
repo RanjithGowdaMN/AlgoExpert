@@ -55,7 +55,23 @@ namespace Arrays._03_Hard
         }
     }
 }
+/*
+ using System.Linq;
 
+public class ProgramTest {
+  [Test]
+  public void TestCase6() {
+    int[] expected = { 0, 7 };
+    Utils.AssertTrue(Enumerable.SequenceEqual(
+      Program.LargestRange(new int[] { 1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6 }
+      ),
+      expected
+    ));
+  }
+}
+
+
+ */
 //Expected Output
 //[0, 7]
 //Your Code's Output

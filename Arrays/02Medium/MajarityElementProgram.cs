@@ -62,6 +62,19 @@ namespace Arrays._02Medium
 }
 
 /*
+ * 
+ * using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var input = new int[] { 1, 0, 1, 0, 0, 0, 1 };
+    var expected = 4;
+    var actual = new Program().BestSeat(input);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
  Test Case 1 passed!
 Expected Output
 2

@@ -94,6 +94,467 @@ namespace Arrays._04VeryHard
 }
 
 /*
+using System.Collections.Generic;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    List<Dictionary<string, bool> > blocks =
+      new List<Dictionary<string, bool> >();
+
+    blocks.Insert(0, new Dictionary<string, bool>());
+    blocks[0]["gym"] = false;
+    blocks[0]["school"] = true;
+    blocks[0]["store"] = false;
+
+    blocks.Insert(1, new Dictionary<string, bool>());
+    blocks[1]["gym"] = true;
+    blocks[1]["school"] = false;
+    blocks[1]["store"] = false;
+
+    blocks.Insert(2, new Dictionary<string, bool>());
+    blocks[2]["gym"] = true;
+    blocks[2]["school"] = true;
+    blocks[2]["store"] = false;
+
+    blocks.Insert(3, new Dictionary<string, bool>());
+    blocks[3]["gym"] = false;
+    blocks[3]["school"] = true;
+    blocks[3]["store"] = false;
+
+    blocks.Insert(4, new Dictionary<string, bool>());
+    blocks[4]["gym"] = false;
+    blocks[4]["school"] = true;
+    blocks[4]["store"] = true;
+
+    string[] reqs = new string[] { "gym", "school", "store" };
+    Utils.AssertTrue(Program.ApartmentHunting(blocks, reqs) == 3);
+  }
+}
+
+
+7 / 7 test cases passed.
+
+Test Case 1 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "blocks": [
+    {
+      "gym": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": true,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": true,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": true,
+      "store": true
+    }
+  ],
+  "reqs": ["gym", "school", "store"]
+}
+Test Case 2 passed!
+Expected Output
+2
+Your Code's Output
+2
+View Outputs Side By Side
+Input(s)
+{
+  "blocks": [
+    {
+      "gym": false,
+      "office": true,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": true,
+      "office": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": true,
+      "office": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "school": true,
+      "store": true
+    }
+  ],
+  "reqs": ["gym", "office", "school", "store"]
+}
+Test Case 3 passed!
+Expected Output
+2
+Your Code's Output
+2
+View Outputs Side By Side
+Input(s)
+{
+  "blocks": [
+    {
+      "gym": false,
+      "office": true,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": true,
+      "office": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": true,
+      "office": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "school": true,
+      "store": true
+    }
+  ],
+  "reqs": ["gym", "office", "school", "store"]
+}
+Test Case 4 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "blocks": [
+    {
+      "foo": true,
+      "gym": false,
+      "kappa": false,
+      "office": true,
+      "school": true,
+      "store": false
+    },
+    {
+      "foo": true,
+      "gym": true,
+      "kappa": false,
+      "office": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "foo": true,
+      "gym": true,
+      "kappa": false,
+      "office": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "foo": true,
+      "gym": false,
+      "kappa": false,
+      "office": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "foo": true,
+      "gym": true,
+      "kappa": false,
+      "office": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "foo": true,
+      "gym": false,
+      "kappa": false,
+      "office": false,
+      "school": true,
+      "store": true
+    }
+  ],
+  "reqs": ["gym", "school", "store"]
+}
+Test Case 5 passed!
+Expected Output
+2
+Your Code's Output
+2
+View Outputs Side By Side
+Input(s)
+{
+  "blocks": [
+    {
+      "gym": true,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": false,
+      "store": true
+    },
+    {
+      "gym": true,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "school": true,
+      "store": false
+    }
+  ],
+  "reqs": ["gym", "school", "store"]
+}
+Test Case 6 passed!
+Expected Output
+7
+Your Code's Output
+7
+View Outputs Side By Side
+Input(s)
+{
+  "blocks": [
+    {
+      "gym": true,
+      "pool": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": false,
+      "school": false,
+      "store": true
+    },
+    {
+      "gym": true,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "pool": true,
+      "school": false,
+      "store": false
+    }
+  ],
+  "reqs": ["gym", "pool", "school", "store"]
+}
+Test Case 7 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "blocks": [
+    {
+      "gym": true,
+      "office": false,
+      "pool": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": true,
+      "pool": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": true,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "pool": false,
+      "school": false,
+      "store": true
+    },
+    {
+      "gym": true,
+      "office": true,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "pool": true,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "pool": false,
+      "school": false,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "pool": false,
+      "school": true,
+      "store": false
+    },
+    {
+      "gym": false,
+      "office": false,
+      "pool": true,
+      "school": false,
+      "store": false
+    }
+  ],
+  "reqs": ["gym", "pool", "school", "store"]
+} 
+
+
+
+
  {
   "blocks": [
     {

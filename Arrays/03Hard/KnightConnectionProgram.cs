@@ -51,6 +51,21 @@ namespace Arrays._03Hard
     }
 }
 /*
+ * 
+ * using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var knightA = new int[] { 0, 0 };
+    var knightB = new int[] { 2, 1 };
+    var expected = 1;
+    var actual = new Program().KnightConnection(knightA, knightB);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
+
  16 / 16 test cases passed.
 
 Test Case 1 passed!

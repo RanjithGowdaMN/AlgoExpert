@@ -33,6 +33,19 @@ namespace Arrays._03_Hard
         }
     }
 }
+
+/*
+ public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var input = new int[] { 8, 4, 2, 1, 3, 6, 7, 9, 5 };
+    var actual = Program.MinRewards(input);
+    var expected = 25;
+    Utils.AssertEquals(expected, actual);
+  }
+}
+
+ */
 //Expected Output
 //25
 //Your Code's Output

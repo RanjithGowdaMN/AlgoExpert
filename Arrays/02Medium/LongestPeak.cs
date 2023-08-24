@@ -112,6 +112,287 @@ namespace Arrays
 
 }
 /*
+ * 
+ * 
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var input = new int[] { 1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3 };
+    var expected = 6;
+    var actual = Program.LongestPeak(input);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
+13 / 13 test cases passed.
+
+Test Case 1 passed!
+Expected Output
+6
+Your Code's Output
+6
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3]
+}
+Test Case 2 passed!
+Expected Output
+0
+Your Code's Output
+0
+View Outputs Side By Side
+Input(s)
+{
+  "array": []
+}
+Test Case 3 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 3, 2]
+}
+Test Case 4 passed!
+Expected Output
+6
+Your Code's Output
+6
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 4, 5, 1]
+}
+Test Case 5 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "array": [5, 4, 3, 2, 1, 2, 1]
+}
+Test Case 6 passed!
+Expected Output
+5
+Your Code's Output
+5
+View Outputs Side By Side
+Input(s)
+{
+  "array": [5, 4, 3, 2, 1, 2, 10, 12, -3, 5, 6, 7, 10]
+}
+Test Case 7 passed!
+Expected Output
+0
+Your Code's Output
+0
+View Outputs Side By Side
+Input(s)
+{
+  "array": [5, 4, 3, 2, 1, 2, 10, 12]
+}
+Test Case 8 passed!
+Expected Output
+0
+Your Code's Output
+0
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 4, 5, 6, 10, 100, 1000]
+}
+Test Case 9 passed!
+Expected Output
+0
+Your Code's Output
+0
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 3, 2, 1]
+}
+Test Case 10 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 1, 3, 2, 1]
+}
+Test Case 11 passed!
+Expected Output
+5
+Your Code's Output
+5
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 2, 1, 1]
+}
+Test Case 12 passed!
+Expected Output
+9
+Your Code's Output
+9
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 1, 1, 2, 3, 10, 12, -3, -3, 2, 3, 45, 800, 99, 98, 0, -1, -1, 2, 3, 4, 5, 0, -1, -1]
+}
+Test Case 13 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 3, 4, 0, 10]
+}
+
+
+ 3 / 13 test cases passed.
+
+Test Case 1 passed!
+Expected Output
+6
+Your Code's Output
+6
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3]
+}
+Test Case 2 passed!
+Expected Output
+0
+Your Code's Output
+0
+View Outputs Side By Side
+Input(s)
+{
+  "array": []
+}
+Test Case 3 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 3, 2]
+}
+Test Case 4 passed!
+Expected Output
+6
+Your Code's Output
+6
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 4, 5, 1]
+}
+Test Case 5 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "array": [5, 4, 3, 2, 1, 2, 1]
+}
+Test Case 6 passed!
+Expected Output
+5
+Your Code's Output
+5
+View Outputs Side By Side
+Input(s)
+{
+  "array": [5, 4, 3, 2, 1, 2, 10, 12, -3, 5, 6, 7, 10]
+}
+Test Case 7 passed!
+Expected Output
+0
+Your Code's Output
+0
+View Outputs Side By Side
+Input(s)
+{
+  "array": [5, 4, 3, 2, 1, 2, 10, 12]
+}
+Test Case 8 passed!
+Expected Output
+0
+Your Code's Output
+0
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 4, 5, 6, 10, 100, 1000]
+}
+Test Case 9 passed!
+Expected Output
+0
+Your Code's Output
+0
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 3, 2, 1]
+}
+Test Case 10 passed!
+Expected Output
+4
+Your Code's Output
+4
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 1, 3, 2, 1]
+}
+Test Case 11 passed!
+Expected Output
+5
+Your Code's Output
+5
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 2, 1, 1]
+}
+Test Case 12 passed!
+Expected Output
+9
+Your Code's Output
+9
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 1, 1, 2, 3, 10, 12, -3, -3, 2, 3, 45, 800, 99, 98, 0, -1, -1, 2, 3, 4, 5, 0, -1, -1]
+}
+Test Case 13 passed!
+Expected Output
+3
+Your Code's Output
+3
+View Outputs Side By Side
+Input(s)
+{
+  "array": [1, 2, 3, 3, 4, 0, 10]
+}
+ */
+
+/*
  * Test Case 1
 {
   "array": [1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3]

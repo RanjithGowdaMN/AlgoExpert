@@ -174,6 +174,378 @@ namespace Arrays._04VeryHard
 
 }
 /*
+ * 
+using System.Collections.Generic;
+
+public class ProgramTest {
+  public bool arraysEqual(
+    List<Program.StringMeeting> arr1, List<Program.StringMeeting> arr2
+  ) {
+    if (arr1.Count != arr2.Count) return false;
+
+    for (int i = 0; i < arr1.Count; i++) {
+      if (!arr1[i].start.Equals(arr2[i].start) || !arr1[i].end.Equals(arr2[i].end)) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  [Test]
+  public void TestCase1() {
+    List<Program.StringMeeting> calendar1 = new List<Program.StringMeeting>();
+    calendar1.Add(new Program.StringMeeting("9:00", "10:30"));
+    calendar1.Add(new Program.StringMeeting("12:00", "13:00"));
+    calendar1.Add(new Program.StringMeeting("16:00", "18:00"));
+
+    Program.StringMeeting dailyBounds1 =
+      new Program.StringMeeting("9:00", "20:00");
+
+    List<Program.StringMeeting> calendar2 = new List<Program.StringMeeting>();
+    calendar2.Add(new Program.StringMeeting("10:00", "11:30"));
+    calendar2.Add(new Program.StringMeeting("12:30", "14:30"));
+    calendar2.Add(new Program.StringMeeting("14:30", "15:00"));
+    calendar2.Add(new Program.StringMeeting("16:00", "17:00"));
+
+    Program.StringMeeting dailyBounds2 =
+      new Program.StringMeeting("10:00", "18:30");
+
+    int meetingDuration = 30;
+
+    List<Program.StringMeeting> expected = new List<Program.StringMeeting>();
+    expected.Add(new Program.StringMeeting("11:30", "12:00"));
+    expected.Add(new Program.StringMeeting("15:00", "16:00"));
+    expected.Add(new Program.StringMeeting("18:00", "18:30"));
+
+    List<Program.StringMeeting> actual = Program.CalendarMatching(
+      calendar1, dailyBounds1, calendar2, dailyBounds2, meetingDuration
+    );
+    Utils.AssertTrue(arraysEqual(expected, actual));
+  }
+}
+
+12 / 12 test cases passed.
+
+Test Case 1 passed!
+Expected Output
+[
+  ["11:30", "12:00"],
+  ["15:00", "16:00"],
+  ["18:00", "18:30"]
+]
+Your Code's Output
+[
+  ["11:30", "12:00"],
+  ["15:00", "16:00"],
+  ["18:00", "18:30"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["9:00", "10:30"],
+    ["12:00", "13:00"],
+    ["16:00", "18:00"]
+  ],
+  "calendar2": [
+    ["10:00", "11:30"],
+    ["12:30", "14:30"],
+    ["14:30", "15:00"],
+    ["16:00", "17:00"]
+  ],
+  "dailyBounds1": ["9:00", "20:00"],
+  "dailyBounds2": ["10:00", "18:30"],
+  "meetingDuration": 30
+}
+Test Case 2 passed!
+Expected Output
+[
+  ["11:30", "12:00"],
+  ["15:00", "16:00"],
+  ["18:00", "18:30"]
+]
+Your Code's Output
+[
+  ["11:30", "12:00"],
+  ["15:00", "16:00"],
+  ["18:00", "18:30"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["9:00", "10:30"],
+    ["12:00", "13:00"],
+    ["16:00", "18:00"]
+  ],
+  "calendar2": [
+    ["10:00", "11:30"],
+    ["12:30", "14:30"],
+    ["14:30", "15:00"],
+    ["16:00", "17:00"]
+  ],
+  "dailyBounds1": ["9:00", "20:00"],
+  "dailyBounds2": ["10:00", "18:30"],
+  "meetingDuration": 30
+}
+Test Case 3 passed!
+Expected Output
+[
+  ["15:00", "16:00"]
+]
+Your Code's Output
+[
+  ["15:00", "16:00"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["9:00", "10:30"],
+    ["12:00", "13:00"],
+    ["16:00", "18:00"]
+  ],
+  "calendar2": [
+    ["10:00", "11:30"],
+    ["12:30", "14:30"],
+    ["14:30", "15:00"],
+    ["16:00", "17:00"]
+  ],
+  "dailyBounds1": ["9:00", "20:00"],
+  "dailyBounds2": ["10:00", "18:30"],
+  "meetingDuration": 45
+}
+Test Case 4 passed!
+Expected Output
+[
+  ["8:00", "9:00"],
+  ["15:00", "16:00"]
+]
+Your Code's Output
+[
+  ["8:00", "9:00"],
+  ["15:00", "16:00"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["9:00", "10:30"],
+    ["12:00", "13:00"],
+    ["16:00", "18:00"]
+  ],
+  "calendar2": [
+    ["10:00", "11:30"],
+    ["12:30", "14:30"],
+    ["14:30", "15:00"],
+    ["16:00", "17:00"]
+  ],
+  "dailyBounds1": ["8:00", "20:00"],
+  "dailyBounds2": ["7:00", "18:30"],
+  "meetingDuration": 45
+}
+Test Case 5 passed!
+Expected Output
+[]
+Your Code's Output
+[]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["8:00", "10:30"],
+    ["11:30", "13:00"],
+    ["14:00", "16:00"],
+    ["16:00", "18:00"]
+  ],
+  "calendar2": [
+    ["10:00", "11:30"],
+    ["12:30", "14:30"],
+    ["14:30", "15:00"],
+    ["16:00", "17:00"]
+  ],
+  "dailyBounds1": ["8:00", "18:00"],
+  "dailyBounds2": ["7:00", "18:30"],
+  "meetingDuration": 15
+}
+Test Case 6 passed!
+Expected Output
+[
+  ["9:30", "10:00"],
+  ["11:15", "11:30"],
+  ["13:30", "14:15"],
+  ["18:00", "18:30"]
+]
+Your Code's Output
+[
+  ["9:30", "10:00"],
+  ["11:15", "11:30"],
+  ["13:30", "14:15"],
+  ["18:00", "18:30"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["10:00", "10:30"],
+    ["10:45", "11:15"],
+    ["11:30", "13:00"],
+    ["14:15", "16:00"],
+    ["16:00", "18:00"]
+  ],
+  "calendar2": [
+    ["10:00", "11:00"],
+    ["12:30", "13:30"],
+    ["14:30", "15:00"],
+    ["16:00", "17:00"]
+  ],
+  "dailyBounds1": ["9:30", "20:00"],
+  "dailyBounds2": ["9:00", "18:30"],
+  "meetingDuration": 15
+}
+Test Case 7 passed!
+Expected Output
+[]
+Your Code's Output
+[]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["10:00", "10:30"],
+    ["10:45", "11:15"],
+    ["11:30", "13:00"],
+    ["14:15", "16:00"],
+    ["16:00", "18:00"]
+  ],
+  "calendar2": [
+    ["10:00", "11:00"],
+    ["10:30", "20:30"]
+  ],
+  "dailyBounds1": ["9:30", "20:00"],
+  "dailyBounds2": ["9:00", "22:30"],
+  "meetingDuration": 60
+}
+Test Case 8 passed!
+Expected Output
+[
+  ["18:00", "20:00"]
+]
+Your Code's Output
+[
+  ["18:00", "20:00"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["10:00", "10:30"],
+    ["10:45", "11:15"],
+    ["11:30", "13:00"],
+    ["14:15", "16:00"],
+    ["16:00", "18:00"]
+  ],
+  "calendar2": [
+    ["10:00", "11:00"],
+    ["10:30", "16:30"]
+  ],
+  "dailyBounds1": ["9:30", "20:00"],
+  "dailyBounds2": ["9:00", "22:30"],
+  "meetingDuration": 60
+}
+Test Case 9 passed!
+Expected Output
+[
+  ["9:30", "16:30"]
+]
+Your Code's Output
+[
+  ["9:30", "16:30"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [],
+  "calendar2": [],
+  "dailyBounds1": ["9:30", "20:00"],
+  "dailyBounds2": ["9:00", "16:30"],
+  "meetingDuration": 60
+}
+Test Case 10 passed!
+Expected Output
+[
+  ["9:30", "16:30"]
+]
+Your Code's Output
+[
+  ["9:30", "16:30"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [],
+  "calendar2": [],
+  "dailyBounds1": ["9:00", "16:30"],
+  "dailyBounds2": ["9:30", "20:00"],
+  "meetingDuration": 60
+}
+Test Case 11 passed!
+Expected Output
+[
+  ["9:30", "16:30"]
+]
+Your Code's Output
+[
+  ["9:30", "16:30"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [],
+  "calendar2": [],
+  "dailyBounds1": ["9:30", "16:30"],
+  "dailyBounds2": ["9:30", "16:30"],
+  "meetingDuration": 60
+}
+Test Case 12 passed!
+Expected Output
+[
+  ["8:30", "9:00"],
+  ["10:30", "11:15"],
+  ["19:00", "20:00"]
+]
+Your Code's Output
+[
+  ["8:30", "9:00"],
+  ["10:30", "11:15"],
+  ["19:00", "20:00"]
+]
+View Outputs Side By Side
+Input(s)
+{
+  "calendar1": [
+    ["7:00", "7:45"],
+    ["8:15", "8:30"],
+    ["9:00", "10:30"],
+    ["12:00", "14:00"],
+    ["14:00", "15:00"],
+    ["15:15", "15:30"],
+    ["16:30", "18:30"],
+    ["20:00", "21:00"]
+  ],
+  "calendar2": [
+    ["9:00", "10:00"],
+    ["11:15", "11:30"],
+    ["11:45", "17:00"],
+    ["17:30", "19:00"],
+    ["20:00", "22:15"]
+  ],
+  "dailyBounds1": ["6:30", "22:00"],
+  "dailyBounds2": ["8:00", "22:30"],
+  "meetingDuration": 30
+}
+
+
  {
   "calendar1": [
     ["9:00", "10:30"],
