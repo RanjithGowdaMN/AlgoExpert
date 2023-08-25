@@ -52,7 +52,25 @@ namespace Sorting._01_Medium
 
 
 /*
- Test Case 1 passed!
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var array = new int[] { 1, 0, 0, -1, -1, 0, 1, 1 };
+    var order = new int[] { 0, 1, -1 };
+    var expected = new int[] { 0, 0, 0, 1, 1, 1, -1, -1 };
+    var actual = new Program().ThreeNumberSort(array, order);
+    Utils.AssertTrue(expected.Length == actual.Length);
+    for (int i = 0; i < expected.Length; i++) {
+      Utils.AssertTrue(expected[i] == actual[i]);
+    }
+  }
+}
+
+ 
+
+Test Case 1 passed!
 Expected Output
 [0, 0, 0, 1, 1, 1, -1, -1]
 Your Code's Output

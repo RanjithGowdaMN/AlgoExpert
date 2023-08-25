@@ -73,7 +73,21 @@ namespace Sorting._03_Very_Hard
 }
 
 /*
- 15 / 15 test cases passed.
+ 
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[] input = new int[] { 2, 3, 3, 1, 9, 5, 6 };
+    var expected = 5;
+    var actual = new Program().CountInversions(input);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
+
+15 / 15 test cases passed.
 
 Test Case 1 passed!
 Expected Output

@@ -71,7 +71,30 @@ namespace Sorting._03_Very_Hard
 }
 
 /*
- Test Case 1 passed!
+ 
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[] expected = { 2, 3, 5, 5, 6, 8, 9 };
+    int[] input = { 8, 5, 2, 9, 5, 6, 3 };
+    Utils.AssertTrue(compare(Program.MergeSort(input), expected));
+  }
+
+  public bool compare(int[] arr1, int[] arr2) {
+    if (arr1.Length != arr2.Length) {
+      return false;
+    }
+    for (int i = 0; i < arr1.Length; i++) {
+      if (arr1[i] != arr2[i]) {
+        return false;
+      }
+    }
+    return true;
+  }
+}
+
+
+Test Case 1 passed!
 Expected Output
 [2, 3, 5, 5, 6, 8, 9]
 Your Code's Output

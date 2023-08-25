@@ -59,7 +59,25 @@ namespace Sorting._02_Hard
 }
 
 /*
- Test Case 1 passed!
+ 
+using System.Collections.Generic;
+using System.Linq;
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    List<int> input =
+      new List<int> { 8762, 654, 3008, 345, 87, 65, 234, 12, 2 };
+    List<int> expected =
+      new List<int> { 2, 12, 65, 87, 234, 345, 654, 3008, 8762 };
+    var actual = new Program().RadixSort(input);
+    Utils.AssertTrue(Enumerable.SequenceEqual(expected, actual));
+  }
+}
+
+
+Test Case 1 passed!
 Expected Output
 [2, 12, 65, 87, 234, 345, 654, 3008, 8762]
 Your Code's Output
