@@ -58,7 +58,22 @@ namespace Strings._04_Very_Hard
 }
 
 /*
- * 77 / 77 test cases passed.
+ 
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var input = "(()))(";
+    var expected = 4;
+    var actual = new Program().LongestBalancedSubstring(input);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
+
+
+77 / 77 test cases passed.
 
 Test Case 1 passed!
 Expected Output

@@ -77,6 +77,23 @@ namespace Strings._02_Medium
 }
 
 /*
+using System;
+using System.Linq;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    string[] words =
+      new string[] { "this", "that", "did", "deed", "them!", "a" };
+    char[] expected =
+      new char[] { 't', 't', 'h', 'i', 's', 'a', 'd', 'd', 'e', 'e', 'm', '!' };
+    var actual = new Program().MinimumCharactersForWords(words);
+    Utils.AssertTrue(expected.SequenceEqual(actual));
+  }
+}
+
+
+
  Test Case 1 passed!
 This test case passed even though your code's output is different from the expected output. This means that this test case has at least 2 different acceptable answers.
 

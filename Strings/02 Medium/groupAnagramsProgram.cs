@@ -35,7 +35,51 @@ namespace Strings._02_Medium
 }
 
 /*
- Test Case 1 passed!
+using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    List<string> words = new List<string>(
+    ) { "yo", "act", "flop", "tac", "foo", "cat", "oy", "olfp" };
+    List<List<string> > expected = new List<List<string> >();
+    expected.Add(new List<string>() { "yo", "oy" });
+    expected.Add(new List<string>() { "flop", "olfp" });
+    expected.Add(new List<string>() { "act", "tac", "cat" });
+    expected.Add(new List<string>() { "foo" });
+    List<List<string> > output = Program.groupAnagrams(words);
+    foreach (List<string> innerList in output) {
+      innerList.Sort();
+    }
+    Utils.AssertTrue(compare(expected, output));
+  }
+
+  public bool compare(
+    List<List<string> > expected, List<List<string> > output
+  ) {
+    if (expected.Count != output.Count) return false;
+    foreach (List<string> e in expected) {
+      e.Sort();
+      var found = false;
+      foreach (List<string> o in output) {
+        if (e.SequenceEqual(o)) {
+          found = true;
+        }
+      }
+
+      if (!found) return false;
+    }
+
+    return true;
+  }
+}
+
+ 
+
+Test Case 1 passed!
 This test case passed even though your code's output is different from the expected output. This means that this test case has at least 2 different acceptable answers.
 
 Expected Output

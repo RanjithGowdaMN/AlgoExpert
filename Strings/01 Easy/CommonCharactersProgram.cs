@@ -68,7 +68,24 @@ namespace Strings._01_Easy
     }
 }
 /*
- Test Case 1 passed!
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    string[] input = new string[] { "abc", "bcd", "cbad" };
+    string[] expected = new string[] { "b", "c" };
+    string[] actual = new Program().CommonCharacters(input);
+    Array.Sort(actual);
+    Utils.AssertTrue(expected.Length == actual.Length);
+    for (int i = 0; i < actual.Length; i++) {
+      Utils.AssertTrue(expected[i].Equals(actual[i]));
+    }
+  }
+}
+ 
+
+Test Case 1 passed!
 Expected Output
 ["b", "c"]
 Your Code's Output

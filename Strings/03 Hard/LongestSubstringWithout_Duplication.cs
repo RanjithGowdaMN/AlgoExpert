@@ -35,44 +35,117 @@ namespace Strings._03_Hard
 }
 
 /*
- est Case 1
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    Utils.AssertTrue(Program.LongestSubstringWithoutDuplication("clementisacap")
+                       .Equals("mentisac"));
+  }
+}
+
+10 / 10 test cases passed.
+
+Test Case 1 passed!
+Expected Output
+mentisac
+Our Code's Output
+mentisac
+View Outputs Side By Side
+Input(s)
 {
   "string": "clementisacap"
 }
-Test Case 2
+Test Case 2 passed!
+Expected Output
+a
+Our Code's Output
+a
+View Outputs Side By Side
+Input(s)
 {
   "string": "a"
 }
-Test Case 3
+Test Case 3 passed!
+Expected Output
+abc
+Our Code's Output
+abc
+View Outputs Side By Side
+Input(s)
 {
   "string": "abc"
 }
-Test Case 4
+Test Case 4 passed!
+Expected Output
+abc
+Our Code's Output
+abc
+View Outputs Side By Side
+Input(s)
 {
   "string": "abcb"
 }
-Test Case 5
+Test Case 5 passed!
+Expected Output
+abcdef
+Our Code's Output
+abcdef
+View Outputs Side By Side
+Input(s)
 {
   "string": "abcdeabcdefc"
 }
-Test Case 6
+Test Case 6 passed!
+Expected Output
+cdea
+Our Code's Output
+cdea
+View Outputs Side By Side
+Input(s)
 {
   "string": "abccdeaabbcddef"
 }
-Test Case 7
+Test Case 7 passed!
+Expected Output
+bac
+Our Code's Output
+bac
+View Outputs Side By Side
+Input(s)
 {
   "string": "abacacacaaabacaaaeaaafa"
 }
-Test Case 8
+Test Case 8 passed!
+Expected Output
+dabcef
+Our Code's Output
+dabcef
+View Outputs Side By Side
+Input(s)
 {
   "string": "abcdabcef"
 }
-Test Case 9
+Test Case 9 passed!
+Expected Output
+cbde
+Our Code's Output
+cbde
+View Outputs Side By Side
+Input(s)
 {
   "string": "abcbde"
 }
-Test Case 10
+Test Case 10 passed!
+Expected Output
+mentisa
+Our Code's Output
+mentisa
+View Outputs Side By Side
+Input(s)
 {
   "string": "clementisanarm"
-}
+} 
+
+
+
  */

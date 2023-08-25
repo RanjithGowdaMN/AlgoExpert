@@ -105,7 +105,20 @@ namespace Strings._04_Very_Hard
 }
 
 /*
- 16 / 16 test cases passed.
+ 
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    string bigstring = "abcd$ef$axb$c$";
+    string smallstring = "$$abf";
+    string expected = "f$axb$";
+    Utils.AssertTrue(Program.SmallestSubstringContaining(bigstring, smallstring)
+                       .Equals(expected));
+  }
+}
+
+
+16 / 16 test cases passed.
 
 Test Case 1 passed!
 Expected Output

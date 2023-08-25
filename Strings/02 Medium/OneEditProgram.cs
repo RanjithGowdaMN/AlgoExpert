@@ -58,7 +58,21 @@ namespace Strings._02_Medium
     }
 }
 /*
- Test Case 1 passed!
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    var stringOne = "hello";
+    var stringTwo = "helo";
+    var expected = true;
+    var actual = new Program().OneEdit(stringOne, stringTwo);
+    Utils.AssertTrue(expected == actual);
+  }
+}
+ 
+
+Test Case 1 passed!
 Expected Output
 true
 Your Code's Output
