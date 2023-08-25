@@ -43,6 +43,39 @@ namespace LinkedList._00_Easy
 }
 
 /*
+ * 
+using System.Collections.Generic;
+using System.Linq;
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    Program.LinkedList linkedList = new Program.LinkedList(1);
+    Program.LinkedList curr = linkedList;
+    for (int i = 1; i < 4; i++) {
+      curr.next = new Program.LinkedList(i);
+      curr = curr.next;
+    }
+
+    List<int> expected = new List<int> { 2, 3 };
+    var actual = new Program().MiddleNode(linkedList);
+    Utils.AssertTrue(Enumerable.SequenceEqual(expected, toList(actual)));
+  }
+
+  private List<int> toList(Program.LinkedList linkedList) {
+    List<int> list = new List<int>();
+    Program.LinkedList curr = linkedList;
+    while (curr != null) {
+      list.Add(curr.value);
+      curr = curr.next;
+    }
+    return list;
+  }
+}
+
+
+
  10 / 10 test cases passed.
 
 Test Case 1 passed!
