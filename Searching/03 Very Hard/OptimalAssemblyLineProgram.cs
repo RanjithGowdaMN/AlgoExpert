@@ -64,6 +64,22 @@ namespace Searching._03_Very_Hard
 }
 
 /*
+
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[] stepDurations = new int[] { 15, 15, 30, 30, 45 };
+    int numStations = 3;
+    int actual = new Program().OptimalAssemblyLine(stepDurations, numStations);
+    int expected = 60;
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
+
+
  30 / 30 test cases passed.
 
 Test Case 1 passed!

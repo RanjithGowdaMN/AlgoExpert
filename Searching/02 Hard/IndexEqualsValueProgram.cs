@@ -41,6 +41,19 @@ namespace Searching._02_Hard
     }
 }
 /*
+
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    Utils.AssertTrue(
+      new Program().IndexEqualsValue(new int[] { -5, -3, 0, 3, 4, 5, 9 }) == 3
+    );
+  }
+}
+
+
  17 / 17 test cases passed.
 
 Test Case 1 passed!

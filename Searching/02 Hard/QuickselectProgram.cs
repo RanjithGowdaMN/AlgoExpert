@@ -68,7 +68,18 @@ namespace Searching._02_Hard
 }
 
 /*
- 8 / 18 test cases passed.
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    Utils.AssertTrue(
+      Program.Quickselect(new int[] { 8, 5, 2, 9, 7, 6, 3 }, 3) == 5
+    );
+  }
+}
+ 
+
+18 / 18 test cases passed.
 
 Test Case 1 passed!
 Expected Output

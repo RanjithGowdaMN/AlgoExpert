@@ -56,7 +56,20 @@ namespace Searching._02_Hard
 }
 
 /*
- 31 / 31 test cases passed.
+ 
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    Utils.AssertTrue(
+      Program.ShiftedBinarySearch(
+        new int[] { 45, 61, 71, 72, 73, 0, 1, 21, 33, 37 }, 33
+      ) == 8
+    );
+  }
+}
+
+
+31 / 31 test cases passed.
 
 Test Case 1 passed!
 Expected Output

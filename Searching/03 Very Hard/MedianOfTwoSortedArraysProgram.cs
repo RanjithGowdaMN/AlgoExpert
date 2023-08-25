@@ -56,7 +56,23 @@ namespace Searching._03_Very_Hard
 }
 
 /*
- 33 / 33 test cases passed.
+using System;
+
+public class ProgramTest {
+  [Test]
+  public void TestCase1() {
+    int[] arrayOne = new int[] { 1, 3, 4, 5 };
+    int[] arrayTwo = new int[] { 2, 3, 6, 7 };
+    float actual = new Program().MedianOfTwoSortedArrays(arrayOne, arrayTwo);
+    float expected = 3.5f;
+    Utils.AssertTrue(expected == actual);
+  }
+}
+
+
+ 
+
+33 / 33 test cases passed.
 
 Test Case 1 passed!
 Expected Output
