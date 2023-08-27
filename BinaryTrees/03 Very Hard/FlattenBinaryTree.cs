@@ -6,8 +6,62 @@ using System.Threading.Tasks;
 
 namespace BinaryTrees._03_Very_Hard
 {
-    internal class FlattenBinaryTreeProgram
+    public class FlattenBinaryTreeProgram
     {
+        public static BinaryTree FlattenBinaryTree(BinaryTree root)
+        {
+            // Write your code here.
+            //O(n) time | O(d) space complexity 
+            BinaryTree leftMost = flattenTree(root)[0];
+            return leftMost;
+        }
+
+        public static BinaryTree[] flattenTree(BinaryTree node)
+        {
+            BinaryTree leftMost;
+            BinaryTree rightMost;
+
+            if (node.left == null)
+            {
+                leftMost = node;
+            }
+            else
+            {
+                BinaryTree[] leftAndRightMostNodes = flattenTree(node.left);
+                connectNodes(leftAndRightMostNodes[1], node);
+                leftMost = leftAndRightMostNodes[0];
+            }
+            if (node.right == null)
+            {
+                rightMost = node;
+            }
+            else
+            {
+                BinaryTree[] leftAndRightMostNodes = flattenTree(node.right);
+                connectNodes(node, leftAndRightMostNodes[0]);
+                rightMost = leftAndRightMostNodes[1];
+            }
+            return new BinaryTree[] { leftMost, rightMost };
+        }
+
+        public static void connectNodes(BinaryTree left, BinaryTree right)
+        {
+            left.right = right;
+            right.left = left;
+        }
+
+        // This is the class of the input root. Do not edit it.
+        public class BinaryTree
+        {
+            public int value;
+            public BinaryTree left = null;
+            public BinaryTree right = null;
+
+            public BinaryTree(int value)
+            {
+                this.value = value;
+            }
+        }
     }
 
 

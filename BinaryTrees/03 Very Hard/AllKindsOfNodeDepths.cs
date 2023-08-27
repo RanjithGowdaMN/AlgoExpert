@@ -6,8 +6,36 @@ using System.Threading.Tasks;
 
 namespace BinaryTrees._03_Very_Hard
 {
-    internal class AllKindsOfNodeDepths
+    public class AllKindsOfNodeDepthsProgram
     {
+        public static int AllKindsOfNodeDepths(BinaryTree root)
+        {
+            // Write your code here.
+            return allKindsOfNodeDepthsHelper(root, 0);
+        }
+
+        public static int allKindsOfNodeDepthsHelper(BinaryTree root, int depth)
+        {
+            if (root == null) return 0;
+
+            var depthSum = (depth * (depth + 1)) / 2;
+            return depthSum + allKindsOfNodeDepthsHelper(root.left, depth + 1) +
+                allKindsOfNodeDepthsHelper(root.right, depth + 1);
+        }
+
+        public class BinaryTree
+        {
+            public int value;
+            public BinaryTree left;
+            public BinaryTree right;
+
+            public BinaryTree(int value)
+            {
+                this.value = value;
+                left = null;
+                right = null;
+            }
+        }
     }
 }
 /*
