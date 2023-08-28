@@ -6,8 +6,83 @@ using System.Threading.Tasks;
 
 namespace LinkedList._03_Very_Hard
 {
-    internal class ZipLinkedList
+    public class ZipLinkedListProgram
     {
+        public class LinkedList
+        {
+            public int value;
+            public LinkedList next;
+
+            public LinkedList(int value)
+            {
+                this.value = value;
+                this.next = null;
+            }
+        }
+
+        public LinkedList ZipLinkedList(LinkedList linkedList)
+        {
+            // Write your code here.
+            if (linkedList.next == null || linkedList.next.next == null)
+            {
+                return linkedList;
+            }
+            LinkedList firstHalfHead = linkedList;
+            LinkedList secondHalfHead = splitLinkedList(linkedList);
+
+            LinkedList reverseSecondHalfHead = reverseLinkedList(secondHalfHead);
+
+            return interweaveLinkedList(firstHalfHead, reverseSecondHalfHead);
+        }
+
+        public LinkedList splitLinkedList(LinkedList linkedList)
+        {
+            LinkedList slowIterator = linkedList;
+            LinkedList fastIterator = linkedList;
+
+            while (fastIterator != null && fastIterator.next != null)
+            {
+                slowIterator = slowIterator.next;
+                fastIterator = fastIterator.next.next;
+            }
+            LinkedList secondHalfHead = slowIterator.next;
+            slowIterator.next = null;
+            return secondHalfHead;
+        }
+
+        public LinkedList interweaveLinkedList(LinkedList linkedList1, LinkedList linkedList2)
+        {
+            LinkedList linkedList1Iterator = linkedList1;
+            LinkedList linkedList2Iterator = linkedList2;
+
+            while (linkedList1Iterator != null && linkedList2Iterator != null)
+            {
+                LinkedList firstHalfIteratorNext = linkedList1Iterator.next;
+                LinkedList secondHalfIteratorNext = linkedList2Iterator.next;
+
+                linkedList1Iterator.next = linkedList2Iterator;
+                linkedList2Iterator.next = firstHalfIteratorNext;
+
+                linkedList1Iterator = firstHalfIteratorNext;
+                linkedList2Iterator = secondHalfIteratorNext;
+            }
+            return linkedList1;
+        }
+
+
+        public LinkedList reverseLinkedList(LinkedList linkedList)
+        {
+            LinkedList previousNode = null;
+            LinkedList currentNode = linkedList;
+            while (currentNode != null)
+            {
+                LinkedList nextNode = currentNode.next;
+                currentNode.next = previousNode;
+                previousNode = currentNode;
+                currentNode = nextNode;
+            }
+            return previousNode;
+        }
     }
 }
 /*

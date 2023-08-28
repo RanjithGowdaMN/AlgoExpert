@@ -6,8 +6,57 @@ using System.Threading.Tasks;
 
 namespace LinkedList._03_Very_Hard
 {
-    internal class LinkedListPolindrome
+    internal class LinkedListPolindromeProgram
     {
+        public class LinkedList
+        {
+            public int value;
+            public LinkedList next;
+
+            public LinkedList(int value)
+            {
+                this.value = value;
+                this.next = null;
+            }
+        }
+
+        public bool LinkedListPalindrome(LinkedList head)
+        {
+            // Write your code here.
+            LinkedList slowNode = head;
+            LinkedList fastNode = head;
+
+            while (fastNode != null && fastNode.next != null)
+            {
+                slowNode = slowNode.next;
+                fastNode = fastNode.next.next;
+            }
+
+            LinkedList reverseSecondHalfNode = reverseLinkedList(slowNode);
+            LinkedList firstHalfNode = head;
+
+            while (reverseSecondHalfNode != null)
+            {
+                if (reverseSecondHalfNode.value != firstHalfNode.value) return false;
+                reverseSecondHalfNode = reverseSecondHalfNode.next;
+                firstHalfNode = firstHalfNode.next;
+            }
+            return true;
+        }
+        public static LinkedList reverseLinkedList(LinkedList head)
+        {
+            LinkedList previousNode = null;
+            LinkedList currentNode = head;
+
+            while (currentNode != null)
+            {
+                LinkedList nextNode = currentNode.next;
+                currentNode.next = previousNode;
+                previousNode = currentNode;
+                currentNode = nextNode;
+            }
+            return previousNode;
+        }
     }
 }
 /*

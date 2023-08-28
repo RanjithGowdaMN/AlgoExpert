@@ -8,6 +8,67 @@ namespace Graphs._03_Very_Hard
 {
     class DetectArbitrageProgram
     {
+        public bool DetectArbitrage(List<List<Double>> exchangeRates)
+        {
+            //O(n^3) time | O(n^2) space
+            List<List<Double>> logExchangeRates = convertToLogMatrix(exchangeRates);
+
+            return foundNegativeWeightCycle(logExchangeRates, 0);
+        }
+
+        public bool foundNegativeWeightCycle(List<List<Double>> graph, int start)
+        {
+            double[] distanceFromStart = new double[graph.Count];
+            Array.Fill(distanceFromStart, Double.MaxValue);
+            distanceFromStart[start] = 0;
+
+            for (int unused = 0; unused < graph.Count; unused++)
+            {
+                if (!relaxEdgesAndUpdateDistances(graph, distanceFromStart))
+                {
+                    return false;
+                }
+            }
+            return relaxEdgesAndUpdateDistances(graph, distanceFromStart);
+        }
+
+        public bool relaxEdgesAndUpdateDistances(
+            List<List<Double>> graph, double[] distances
+        )
+        {
+            bool updated = false;
+
+            for (int sourceIdx = 0; sourceIdx < graph.Count; sourceIdx++)
+            {
+                List<Double> edges = graph[sourceIdx];
+                for (int destinationIdx = 0; destinationIdx < edges.Count; destinationIdx++)
+                {
+                    double edgeWeight = edges[destinationIdx];
+                    double newDistanceToDestination = distances[sourceIdx] + edgeWeight;
+                    if (newDistanceToDestination < distances[destinationIdx])
+                    {
+                        updated = true;
+                        distances[destinationIdx] = newDistanceToDestination;
+                    }
+                }
+            }
+            return updated;
+        }
+        public List<List<Double>> convertToLogMatrix(List<List<Double>> matrix)
+        {
+            List<List<Double>> newMatrix = new List<List<Double>>();
+
+            for (int row = 0; row < matrix.Count; row++)
+            {
+                List<Double> rates = matrix[row];
+                newMatrix.Add(new List<Double>());
+                foreach (var rate in rates)
+                {
+                    newMatrix[row].Add(-Math.Log10(rate));
+                }
+            }
+            return newMatrix;
+        }
     }
 }
 /*

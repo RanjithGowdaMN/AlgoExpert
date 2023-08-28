@@ -8,6 +8,66 @@ namespace Graphs._03_Very_Hard
 {
     class TwoEdgeConnectedGraphProgram
     {
+        public bool TwoEdgeConnectedGraph(int[][] edges)
+        {
+            // O(v + e) time | O(v)
+            if (edges.Length == 0) return true;
+
+            int[] arraivalTimes = new int[edges.Length];
+            Array.Fill(arraivalTimes, -1);
+            int startVertex = 0;
+            if (getMinimumArraivalTimeOfAncestors(startVertex, -1, 0, arraivalTimes, edges) == -1)
+            {
+                return false;
+            }
+            return areAllVerticesVisited(arraivalTimes);
+        }
+        public bool areAllVerticesVisited(int[] arraivalTimes)
+        {
+            foreach (var time in arraivalTimes)
+            {
+                if (time == -1)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public int getMinimumArraivalTimeOfAncestors(
+            int currentVertex,
+            int parent,
+            int currentTime,
+            int[] arraivalTimes,
+            int[][] edges
+        )
+        {
+            arraivalTimes[currentVertex] = currentTime;
+
+            int minimumArraivalTime = currentTime;
+
+            foreach (var destination in edges[currentVertex])
+            {
+                if (arraivalTimes[destination] == -1)
+                {
+                    minimumArraivalTime = Math.Min(
+                        minimumArraivalTime,
+                        getMinimumArraivalTimeOfAncestors(destination, currentVertex, currentTime + 1, arraivalTimes, edges));
+                }
+                else if (destination != parent)
+                {
+                    minimumArraivalTime =
+                        Math.Min(minimumArraivalTime, arraivalTimes[destination]);
+                }
+            }
+            //A bridge was detected, which mean the graph isn't tow-edges-connected
+            if (minimumArraivalTime == currentTime && parent != -1)
+            {
+                return -1;
+            }
+
+            return minimumArraivalTime;
+        }
     }
 }
 /*

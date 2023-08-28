@@ -6,8 +6,41 @@ using System.Threading.Tasks;
 
 namespace LinkedList._03_Very_Hard
 {
-    internal class NodeSwap
+    public class NodeSwapProgram
     {
+        public class LinkedList
+        {
+            public int value;
+            public LinkedList next;
+
+            public LinkedList(int value)
+            {
+                this.value = value;
+                this.next = null;
+            }
+        }
+
+        public LinkedList NodeSwap(LinkedList head)
+        {
+            // O(n) time | O(1) space
+            LinkedList tempNode = new LinkedList(0);
+            tempNode.next = head;
+
+            LinkedList prevNode = tempNode;
+            while (prevNode.next != null && prevNode.next.next != null)
+            {
+                LinkedList firstNode = prevNode.next;
+                LinkedList secondNode = prevNode.next.next;
+                //preNode => secondNode => firstNode => x
+
+                firstNode.next = secondNode.next;
+                secondNode.next = firstNode;
+                prevNode.next = secondNode;
+
+                prevNode = firstNode;
+            }
+            return tempNode.next;
+        }
     }
 }
 /*

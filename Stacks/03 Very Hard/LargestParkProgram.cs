@@ -8,7 +8,49 @@ namespace Stacks._03_Very_Hard
 {
     class LargestParkProgram
     {
+        public int LargestPark(bool[][] land)
+        {
+            // Write your code here.
+            int[] heights = new int[land[0].Length];
+            int maxArea = 0;
 
+            foreach (var row in land)
+            {
+                for (int columnIndex = 0; columnIndex < land[0].Length; columnIndex++)
+                {
+                    heights[columnIndex] =
+                        row[columnIndex] == false ? heights[columnIndex] + 1 : 0;
+                }
+                maxArea = Math.Max(maxArea, largestRectangleHistogram(heights));
+            }
+
+            return maxArea;
+        }
+        static int largestRectangleHistogram(int[] heights)
+        {
+            Stack<int> stack = new Stack<int>();
+            int maxArea = 0;
+
+            for (int columnIndex = 0; columnIndex < heights.Length; columnIndex++)
+            {
+                while (stack.Count > 0 && heights[columnIndex] < heights[stack.Peek()])
+                {
+                    int height = heights[stack.Pop()];
+                    int width =
+                        (stack.Count == 0) ? columnIndex : columnIndex - stack.Peek() - 1;
+                    maxArea = Math.Max(maxArea, width * height);
+                }
+                stack.Push(columnIndex);
+            }
+            while (stack.Count > 0)
+            {
+                int height = heights[stack.Pop()];
+                int width =
+                    (stack.Count == 0) ? heights.Length : heights.Length - stack.Peek() - 1;
+                maxArea = Math.Max(maxArea, width * height);
+            }
+            return maxArea;
+        }
     }
 }
 /*
