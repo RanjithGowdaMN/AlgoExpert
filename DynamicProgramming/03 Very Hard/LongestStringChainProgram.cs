@@ -8,6 +8,94 @@ namespace DynamicProgramming._03_Very_Hard
 {
     class LongestStringChainProgram
     {
+        public class stringChain
+        {
+            public string nextstring;
+            public int maxChainLength;
+
+            public stringChain(string nextstring, int maxChainLength)
+            {
+                this.nextstring = nextstring;
+                this.maxChainLength = maxChainLength;
+            }
+        }
+
+        public static List<string> LongestStringChain(List<string> strings)
+        {
+            // O(n * m^2 + nlog(n) time | O(nm) space n is the number of string and m is length of string
+            Dictionary<string, stringChain> stringChains = new Dictionary<string, stringChain>();
+            foreach (string str in strings)
+            {
+                stringChains[str] = new stringChain("", 1);
+            }
+
+            List<string> sortedstrings = new List<string>(strings);
+            sortedstrings.Sort((a, b) => a.Length - b.Length);
+
+            foreach (string str in sortedstrings)
+            {
+                findLongestStringChain(str, stringChains);
+            }
+
+            return buildLongeststringChain(strings, stringChains);
+        }
+
+        public static void findLongestStringChain(string str, Dictionary<string, stringChain> stringChains)
+        {
+            for (int i = 0; i < str.Length; i++)
+            {
+                string smalleststring = getSmalleststring(str, i);
+                if (!stringChains.ContainsKey(smalleststring)) continue;
+                tryUpdateLongeststringChain(str, smalleststring, stringChains);
+            }
+        }
+
+        public static string getSmalleststring(string str, int index)
+        {
+            return str.Substring(0, index) + str.Substring(index + 1);
+        }
+
+        public static void tryUpdateLongeststringChain(
+          string currentstring,
+          string smalleststring,
+          Dictionary<string, stringChain> stringChains
+        )
+        {
+            int smalleststringChainLength = stringChains[smalleststring].maxChainLength;
+            int currentstringChainLength = stringChains[currentstring].maxChainLength;
+
+            if (smalleststringChainLength + 1 > currentstringChainLength)
+            {
+                stringChains[currentstring].maxChainLength = smalleststringChainLength + 1;
+                stringChains[currentstring].nextstring = smalleststring;
+            }
+        }
+
+        public static List<string> buildLongeststringChain(
+          List<string> strings, Dictionary<string, stringChain> stringChains
+        )
+        {
+            int maxChainLength = 0;
+            string chainStartingstring = "";
+            foreach (string str in strings)
+            {
+                if (stringChains[str].maxChainLength > maxChainLength)
+                {
+                    maxChainLength = stringChains[str].maxChainLength;
+                    chainStartingstring = str;
+                }
+            }
+
+            List<string> ourLongeststringChain = new List<string>();
+            string currentstring = chainStartingstring;
+            while (currentstring != "")
+            {
+                ourLongeststringChain.Add(currentstring); //
+                currentstring = stringChains[currentstring].nextstring;
+            }
+
+            return ourLongeststringChain.Count == 1 ? new List<string>() : ourLongeststringChain;
+        }
     }
 }
 /*
