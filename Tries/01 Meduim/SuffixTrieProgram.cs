@@ -8,6 +8,11 @@ namespace Tries._01_Meduim
 {
     class SuffixTrieProgram
     {
+        public static void Main()
+        {
+            //Do Nothing
+        }
+
         // Do not edit the class below except for the
         // PopulateSuffixTrieFrom and Contains methods.
         // Feel free to add new properties and methods

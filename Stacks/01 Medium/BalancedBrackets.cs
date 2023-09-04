@@ -8,6 +8,11 @@ namespace Stacks._01_Medium
 {
     internal class BalancedBracketsProgram
     {
+        public static void Main()
+        {
+            //Do Nothing
+        }
+
         public static bool BalancedBrackets(string str)
         {
             // Write your code here.

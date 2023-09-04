@@ -8,6 +8,11 @@ namespace PopularAlgorithm._01Medium
 {
     class DijkstrasAlgorithmProgram
     {
+        public static void Main()
+        {
+            //Do Nothing
+        }
+
         public int[] DijkstrasAlgorithm(int start, int[][][] edges)
         {
             // O(v^2 + e) time | O(v)

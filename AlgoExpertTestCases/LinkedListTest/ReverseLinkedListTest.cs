@@ -1,21 +1,29 @@
 ﻿using LinkedList._02_Hard;
 using System.Collections.Generic;
-using NUnit.Framework;
+//using NUnit.Framework;
+using Xunit.Sdk;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AlgoExpertTestCases.LinkedListTest
 {
-
+    [TestClass]
     public class ReverseLinkedListTest
     {
-        [Test]
+        [TestMethod]
         public void TestCase1()
         {
             ReverseLinkedLists.LinkedList test = newLinkedList(new int[] { 0, 1, 2, 3, 4, 5 });
             List<int> result = toList(ReverseLinkedLists.ReverseLinkedList(test));
             int[] expected = new int[] { 5, 4, 3, 2, 1, 0 };
-            Assert.AreEqual(result, expected);
-            //Utils.AssertTrue(arraysEqual(result, expected));
+            CollectionAssert.AreEqual(result, expected);
+            //AssertTrue(arraysEqual(result, expected));
         }
+
+
+
+
+
+
 
         public ReverseLinkedLists.LinkedList newLinkedList(int[] values)
         {

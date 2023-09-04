@@ -8,6 +8,11 @@ namespace Sorting._00_Easy
 {
     public class BubbleSortImplementation
     {
+		public static void Main()
+		{
+			//Do Nothing
+		}
+
 		public static int[] BubbleSort(int[] array)
 		{
 			// Write your code here.

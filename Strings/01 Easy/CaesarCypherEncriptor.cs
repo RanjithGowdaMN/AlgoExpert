@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Strings
 {
-    internal class CaesarCypherEncriptor
+    public class CaesarCypherEncriptor
     {
+        public static void Main()
+        {
+            //Do Nothing
+        }
         public static string caesarCypherEncriptor(string  str, int key)
         {
             char[] newString = new char[str.Length];

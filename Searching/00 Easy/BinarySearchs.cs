@@ -1,5 +1,10 @@
 ﻿public class BinarySearchs
 {
+	public static void Main()
+	{
+		//Do Nothing
+	}
+
 	public static int BinarySearch(int[] array, int target)
 	{
 		// Write your code here.

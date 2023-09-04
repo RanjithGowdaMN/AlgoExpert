@@ -52,35 +52,36 @@ namespace BinaryTrees._01_Medium
             }
         }
 
-        public static void InvertBinaryTree(BinaryTree tree)
-        {
-            // Write your code here.
-            if (tree == null)
-            {
-                return;
-            }
-            swapLeftAndRight(tree);
-            InvertBinaryTree(tree.left);
-            InvertBinaryTree(tree.right);
-        }
+        //Solutuion 2
+        //public static void InvertBinaryTree(BinaryTree tree)
+        //{
+        //    // Write your code here.
+        //    if (tree == null)
+        //    {
+        //        return;
+        //    }
+        //    swapLeftAndRight(tree);
+        //    InvertBinaryTree(tree.left);
+        //    InvertBinaryTree(tree.right);
+        //}
 
-        public static void swapLeftAndRight(BinaryTree tree)
-        {
-            BinaryTree left = tree.left;
-            tree.left = tree.right;
-            tree.right = left;
-        }
-        public class BinaryTree
-        {
-            public int value;
-            public BinaryTree left;
-            public BinaryTree right;
+        //public static void swapLeftAndRight(BinaryTree tree)
+        //{
+        //    BinaryTree left = tree.left;
+        //    tree.left = tree.right;
+        //    tree.right = left;
+        //}
+        //public class BinaryTree
+        //{
+        //    public int value;
+        //    public BinaryTree left;
+        //    public BinaryTree right;
 
-            public BinaryTree(int value)
-            {
-                this.value = value;
-            }
-        }
+        //    public BinaryTree(int value)
+        //    {
+        //        this.value = value;
+        //    }
+        //}
     }
 }
 /*

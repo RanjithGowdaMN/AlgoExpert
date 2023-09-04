@@ -8,6 +8,10 @@ namespace Heaps._01_Medium
 {
     class MinHeapProgram
     {
+        public static void Main()
+        {
+            //Do Nothing
+        }
         public class MinHeap
         {
             public List<int> heap = new List<int>();

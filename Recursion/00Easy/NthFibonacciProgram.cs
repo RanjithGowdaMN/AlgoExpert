@@ -8,6 +8,11 @@ namespace Recursion._00Easy
 {
     class NthFibonacciProgram
     {
+        public static void Main()
+        {
+            //Do Nothing
+        }
+
         public static int GetNthFibSol1(int n)
         {
             // Write your code here.
