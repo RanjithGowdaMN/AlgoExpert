@@ -1,7 +1,7 @@
 using Arrays;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AlgoExpertTestCases
+namespace AlgoExpertTestCases.ArraysTest
 {
     [TestClass]
     public class FirstDuplicateTest
