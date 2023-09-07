@@ -18,7 +18,32 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Arrays\Arrays.csproj" />
+    <ProjectReference Include="..\BinarySearchTrees\BinarySearchTrees.csproj" />
+    <ProjectReference Include="..\BinaryTrees\BinaryTrees.csproj" />
+    <ProjectReference Include="..\DynamicProgramming\DynamicProgramming.csproj" />
+    <ProjectReference Include="..\Graphs\Graphs.csproj" />
+    <ProjectReference Include="..\GreadyAlgorithm\GreadyAlgorithm.csproj" />
+    <ProjectReference Include="..\Heaps\Heaps.csproj" />
     <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
+    <ProjectReference Include="..\PopularAlgorithm\PopularAlgorithm.csproj" />
+    <ProjectReference Include="..\Recursion\Recursion.csproj" />
+    <ProjectReference Include="..\Searching\Searching.csproj" />
+    <ProjectReference Include="..\Sorting\Sorting.csproj" />
+    <ProjectReference Include="..\Stacks\Stacks.csproj" />
+    <ProjectReference Include="..\Strings\Strings.csproj" />
+    <ProjectReference Include="..\Tries\Tries.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DynamicProgrammingTesting\" />
+    <Folder Include="GreedyAlgorithmTest\" />
+    <Folder Include="TriesTest\" />
+    <Folder Include="StringsTest\" />
+    <Folder Include="StacksTest\" />
+    <Folder Include="SortingTest\" />
+    <Folder Include="SearchingTest\" />
+    <Folder Include="RecusrionTest\" />
+    <Folder Include="PopularAlgorithmTest\" />
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Heaps._01_Medium
 {
-    class MinHeapProgram
+    public class MinHeapProgram
     {
         public static void Main()
         {

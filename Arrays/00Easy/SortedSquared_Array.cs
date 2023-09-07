@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Arrays._00Easy
 {
-    class SortedSquared_Array
+    public static class  SortedSquared_Array
     {
-            public int[] SortedSquaredArray(int[] array)
+            public static int[] SortedSquaredArray(int[] array)
             {
                 // Write your code here.
                 int start = 0;
@@ -81,6 +81,7 @@ Input(s)
 {
   "array": [1, 2]
 }
+
 Test Case 4 passed!
 Expected Output
 [1, 4, 9, 16, 25]
